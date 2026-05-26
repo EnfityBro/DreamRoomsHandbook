@@ -71,7 +71,7 @@ function clearContent() {
     const container = document.getElementById('content-area');
     container.innerHTML = `
         <div class="empty-state">
-            <p>Выберите подраздел для просмотра детальной информации...</p>
+            <p>Выбери подраздел для просмотра детальной информации...</p>
         </div>
     `;
 }
