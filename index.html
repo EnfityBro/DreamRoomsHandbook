@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Rooms - Руководство</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="DREAM ROOMS">DREAM ROOMS</h1>
+            <p class="hero-desc">Внутриигровое руководство по лабиринтам снов.<br>Исследуй. Выживай. Понимай.</p>
+            <button onclick="scrollToGuide()" class="enter-btn">НАЧАТЬ ИССЛЕДОВАНИЕ</button>
+        </div>
+    </header>
+
+    <!-- Guide Section -->
+    <section id="guide" class="guide-section">
+        <div class="guide-container">
+            <!-- Left Column: Main Sections -->
+            <div class="column left-column">
+                <h2 class="section-title">РАЗДЕЛЫ</h2>
+                <div id="main-sections" class="sections-list"></div>
+            </div>
+
+            <!-- Middle Column: Subsections -->
+            <div class="column middle-column">
+                <h2 class="section-title">ПОДРАЗДЕЛЫ</h2>
+                <div id="subsections" class="sections-list"></div>
+            </div>
+
+            <!-- Right Column: Content -->
+            <div class="column right-column">
+                <h2 class="section-title">ДЕТАЛИ</h2>
+                <div id="content-area" class="content-area">
+                    <!-- JS populated -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Dream Rooms. Все лабиринты принадлежат нам.</p>
+            <div class="footer-links">
+                <a href="#">Лор</a>
+                <a href="#">Сообщество</a>
+                <a href="#">Версия 0.8.1</a>
+            </div>
+            <div class="vhs-effect">SIGNAL LOST • NO ESCAPE • KEEP MOVING</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

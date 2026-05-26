@@ -1,0 +1,30 @@
+/* mobile.css */
+@media (max-width: 1024px) {
+    .guide-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .hero {
+        height: 80vh;
+    }
+    
+    .glitch {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .guide-section {
+        padding: 2rem 1rem;
+    }
+    
+    .column {
+        min-height: auto;
+        padding: 1rem;
+    }
+    
+    .content-area img {
+        max-height: 280px;
+    }
+}
