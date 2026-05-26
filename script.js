@@ -149,7 +149,18 @@ function selectSubsection(sub) {
 // Render content
 function renderContent() {
     const container = document.getElementById('content-area');
-    container.innerHTML = currentSubsection.content;
+    
+    if (!currentSubsection) {
+        clearContent();
+        return;
+    }
+
+    container.innerHTML = `
+        <h2 class="content-title">${currentSubsection.title}</h2>
+        <div class="content-body">
+            ${currentSubsection.content}
+        </div>
+    `;
 }
 
 // Clear content

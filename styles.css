@@ -250,9 +250,11 @@ body::after {
 }
 
 .vhs-effect {
-    margin-top: 1.5rem;
-    color: #555;
-    font-size: 0.9rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #E8C77F;
+    opacity: 0.4;
+    margin-top: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 6px;
 }
 
@@ -279,4 +281,37 @@ body::after {
 /* Hover effects for analog feel */
 .section-btn:active, .subsection-btn:active {
     transform: scale(0.98);
+}
+
+/* ==================== CONTENT TITLE ==================== */
+.content-title {
+    color: #E8C77F;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2.2rem;
+    font-weight: 700;
+    /*margin: 0 0 1.8rem 0;
+    padding-bottom: 0.8rem;*/
+    /*border-bottom: 3px solid rgba(232, 199, 127, 0.25);*/
+    text-shadow: 0 0 15px rgba(232, 199, 127, 0.6);
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+
+.content-body {
+    line-height: 1.75;
+}
+
+.content-body p {
+    margin-bottom: 1.3rem;
+    font-size: 1.25rem;
+}
+
+/* Улучшение картинки */
+.content-body img.content-image {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border: 3px solid var(--accent-gold);
+    margin: 1.8rem 0 1.5rem 0;
+    box-shadow: 0 0 25px rgba(212, 179, 106, 0.35);
 }
