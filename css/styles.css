@@ -100,15 +100,15 @@ body::after {
 }
 
 .glitch::before {
-    color: #FFFFFF;
+    color: #000000;
     animation: glitch-anim 2s infinite linear alternate-reverse;
     left: 2px;
-    text-shadow: -2px 0 #ff00ff;
+    text-shadow: -2px 0 #00FF00;
 }
 
 .glitch::after {
     color: #E8C77F;
-    animation: glitch-anim2 1.5s infinite linear alternate-reverse;
+    animation: glitch-anim 1.5s infinite linear alternate-reverse;
     left: -2px;
     text-shadow: 2px 0 #000000;
 }
@@ -295,8 +295,8 @@ body::after {
 }
 
 @keyframes glitch-anim {
-    0% { clip: rect(20px, 9999px, 50px, 0); }
-    100% { clip: rect(80px, 9999px, 110px, 0); }
+    0% { clip: rect(20px, 9999px, 75px, 0); }
+    100% { clip: rect(80px, 9999px, 135px, 0); }
 }
 
 @keyframes scanline {
