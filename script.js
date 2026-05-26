@@ -189,8 +189,7 @@ function init() {
         clearContent();
     }
     
-    // Add grain effect or other JS enhancements if needed
-    console.log('%cDream Rooms Guide loaded. Stay in the light.', 'color: #D4B36A; font-family: monospace');
+    console.log('%cDream Rooms Handbook loaded.', 'color: #D4B36A; font-family: monospace');
 }
 
 document.addEventListener('DOMContentLoaded', init);
