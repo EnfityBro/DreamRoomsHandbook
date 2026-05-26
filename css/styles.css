@@ -46,12 +46,11 @@ body::after {
     background: repeating-linear-gradient(
         transparent 0px,
         transparent 2px,
-        rgba(255,255,255,0.03) 2px,
-        rgba(255,255,255,0.03) 4px
+        rgba(0, 0, 0, 0.25) 2px,
+        rgba(0, 0, 0, 0) 10px
     );
-    z-index: -1;
     pointer-events: none;
-    animation: scanline 4s linear infinite;
+    animation: scanline 6s linear infinite;
 }
 
 /* Hero */
@@ -117,7 +116,6 @@ body::after {
     font-size: 1.5rem;
     margin: 1.5rem 0;
     color: #ccc;
-    text-shadow: 0 0 10px var(--accent-gold);
 }
 
 .enter-btn {
@@ -227,7 +225,7 @@ body::after {
     /*margin: 0 0 1.8rem 0;
     padding-bottom: 0.8rem;*/
     /*border-bottom: 3px solid rgba(232, 199, 127, 0.25);*/
-    text-shadow: 0 0 15px rgba(232, 199, 127, 0.6);
+    /*text-shadow: 0 0 15px rgba(232, 199, 127, 0.6);*/
     letter-spacing: 3px;
     line-height: 1.2;
 }
@@ -282,6 +280,7 @@ body::after {
     margin-top: 1rem;
     font-size: 1.1rem;
     letter-spacing: 6px;
+    animation: glitch 5s infinite;
 }
 
 /* Animations */
