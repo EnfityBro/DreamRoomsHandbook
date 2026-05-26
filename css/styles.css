@@ -100,10 +100,10 @@ body::after {
 }
 
 .glitch::before {
-    color: #000000;
+    color: rgba(232, 199, 127, 0.85);
     animation: glitch-anim 2s infinite linear alternate-reverse;
     left: 2px;
-    text-shadow: -2px 0 #00FF00;
+    text-shadow: -2px 0 #000000;
 }
 
 .glitch::after {
@@ -295,8 +295,8 @@ body::after {
 }
 
 @keyframes glitch-anim {
-    0% { clip: rect(20px, 9999px, 75px, 0); }
-    100% { clip: rect(80px, 9999px, 135px, 0); }
+    0% { clip: rect(20px, 9999px, 25px, 0); }
+    100% { clip: rect(80px, 9999px, 190px, 0); }
 }
 
 @keyframes scanline {
