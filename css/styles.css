@@ -118,6 +118,15 @@ body::after {
     color: #ccc;
 }
 
+.telegram-link {
+    color: var(--accent-gold);
+    text-decoration: none;
+}
+
+.telegram-link:hover {
+    text-decoration: underline;
+}
+
 .enter-btn {
     background: transparent;
     color: var(--accent-gold);
