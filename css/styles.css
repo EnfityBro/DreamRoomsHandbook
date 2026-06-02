@@ -316,3 +316,22 @@ body::after {
 .section-btn:active, .subsection-btn:active {
     transform: scale(0.98);
 }
+
+/* Scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-gold) rgba(0, 0, 0, 0); /* scrollbar and track */ 
+}
+
+*::-webkit-scrollbar {
+    width: 8px; /* scrollbar width */
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0); /* track color */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--accent-gold); /* scrollbar color */
+    border-radius: 10px; /* rounding off the scrollbar */
+}
