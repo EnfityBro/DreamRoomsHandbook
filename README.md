@@ -5,13 +5,15 @@
 > 
 > **Dream Rooms Handbook** - is a game guide website that contains information about the game's content. The website is a copy of the in-game guide available from the game menu.
 
-Follow the news of this project in the official [Telegram channel](https://t.me/enfity_games)!<br>
-The website is available at this address: https://enfitybro.github.io/DreamRoomsHandbook/.<br>
-Game development started on **April 17th, 2026**.
+### Follow the project's news in the official [Telegram channel](https://t.me/enfity_games)!
+
+### The website is available at: https://enfitybro.github.io/DreamRoomsHandbook/
+
+Dream Rooms development started on **April 17th, 2026**. The game is currently in the prototype development stage.
 
 > [!WARNING]
 > The Russian-only version of the website is currently available. The English version of the website is under development.
 
 ---
 **© Borodkin Makar, 2026. All rights reserved.** 
-<br>This code and the contents of the DreamRoomsHandbook website are provided for review only. Any copying, modification, distribution or commercial use is prohibited without the written permission of the author. 
+<br>The detailed license terms are in the [LICENSE](https://github.com/EnfityBro/DreamRoomsHandbook?tab=License-1-ov-file) file.
