@@ -1,4 +1,4 @@
-const ruLanguageRegions = ['BY', 'UA', 'KZ', 'KG', 'TJ'];//['RU', 'BY', 'UA', 'KZ', 'KG', 'TJ'];
+const ruLanguageRegions = ['RU', 'BY', 'UA', 'KZ', 'KG', 'TJ'];
 
 function detectRegion() {
     return new Promise((resolve) => {

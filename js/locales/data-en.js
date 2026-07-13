@@ -297,12 +297,21 @@ const guideDataEn = [
         subsections: [
             {
                 id: "sub4-1",
+                title: "About incidents",
+                content: `
+                    <img src="./img/section4/sub4-1.png" alt="Incidents" class="content-image">
+                    <p>Incidents are sudden anomalous occurrences that can only occur at unsafe levels and represent a deadly threat.</p>
+                    <p>A warning about the incident beginning is some anomalous behavior at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome is always a mysterious death.</p>
+                `
+            },
+            {
+                id: "sub4-2",
                 title: "Incident №1",
                 content: `
-                    <img src="./img/section4/sub4-1.png" alt="Incident №1" class="content-image">
-                    <p>Name: "Black heads".<br>Level: 8.<br>Chance of occurrence: 10%.</p>
-                    <p>Incident conditions:<br>1. Do not look at entities with black heads.<br>2. Do not go toward strange sounds.<br>3. Move toward the computers.<br>4. At a computer, find and open the file "Incident_1.exe".</p>
-                    <p>Chance of positive outcome if conditions are met: 90%.<br>Positive outcome: all entities disappear from the level until the next visit.<br>Negative outcome: instant death by suffocation.</p>
+                    <img src="./img/section4/sub4-2.png" alt="Incident №1" class="content-image">
+                    <p>Name: "Black heads".<br>Level: 8.<br>Chance of occurrence: 25%.</p>
+                    <p>If all entities at the level have black heads, then the following rules must be followed:<br>1. Do not look at entities with black heads.<br>2. Do not go toward strange sounds.<br>3. Move toward the computers.<br>4. At a computer, find and open the file "Incident_1.exe".</p>
+                    <p>Chance of positive outcome if conditions are met: 95%.<br>Positive outcome: all entities disappear from the level until the next visit.<br>Negative outcome: instant death by suffocation.</p>
                 `
             }
         ]
