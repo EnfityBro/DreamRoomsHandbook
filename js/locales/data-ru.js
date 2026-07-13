@@ -1,4 +1,4 @@
-const guideData = [
+const guideDataRu = [
     {
         id: "section1",
         title: "Уровни",
@@ -305,5 +305,3 @@ const guideData = [
         ]
     }
 ];
-
-window.guideData = guideData;

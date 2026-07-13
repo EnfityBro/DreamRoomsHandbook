@@ -1,4 +1,4 @@
-// Current state
+let guideData;
 let currentMainSection = null;
 let currentSubsection = null;
 
@@ -83,16 +83,20 @@ function scrollToGuide() {
 
 // Initialize
 function init() {
-    // Select first section by default
     if (guideData.length > 0) {
         currentMainSection = guideData[0];
         renderMainSections();
         renderSubsections();
-        // Do not select subsection initially
         clearContent();
     }
-    
-    console.log('%cDream Rooms Handbook loaded.', 'color: #D4B36A; font-family: monospace');
+
+    console.log('Dream Rooms Handbook initialized');
 }
 
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', async function() {
+    await detectRegion();
+    if (typeof init === 'function') {
+        console.log('Start Dream Rooms Handbook initialization');
+        init();
+    }
+});
