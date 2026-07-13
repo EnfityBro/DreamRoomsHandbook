@@ -8,10 +8,10 @@ const guideDataEn = [
                 title: "About levels",
                 content: `
                     <img src="./img/section1/sub1-1.jpg" alt="Liminal space" class="content-image">
-                    <p>Существует 2 типа уровней:</p>
-                    <p>Безопасный – на уровнях с данным типом не встречаются враждебные сущности и иные угрозы. На таких уровнях можно найти миндальную воду. Также на таких уровнях можно найти мирных или нейтральных сущностей, различные предметы и оружие. На таких уровнях нельзя найти броню.</p>
-                    <p>Небезопасный – на уровнях с данным типом встречаются враждебные или нейтральные сущности и иные угрозы. На таких уровнях нельзя найти миндальную воду и мирных сущностей. На таких уровнях можно найти нейтральных сущностей, различные предметы, оружие и броню.</p>
-                    <p>Каждый уровень имеет возможность переместиться на другой, кроме этого же уровня. Перемещение происходит при открытии некоторых дверей, вхождении в пустые пространства или при выполнении определенных условий уровня.</p>
+                    <p>There are 2 types of levels:</p>
+                    <p>Safe – levels of this type contain no hostile entities or other threats. You can find Almond Water on these levels. Peaceful or neutral entities, various items, and weapons can also be found. Bulletproof vests cannot be found on safe levels.</p>
+                    <p>Unsafe – levels of this type contain hostile or neutral entities and other threats. Almond Water and peaceful entities cannot be found here. Neutral entities, various items, weapons, and bulletproof vests can be found on unsafe levels.</p>
+                    <p>Every level has the ability to move to another level (except the current one). Transition occurs by opening certain doors, entering empty spaces, or fulfilling specific level conditions.</p>
                 `
             },
             {
@@ -19,9 +19,9 @@ const guideDataEn = [
                 title: "Level -1",
                 content: `
                     <img src="./img/section1/sub1-2.jpg" alt="Level -1" class="content-image">
-                    <p>Название: "Вход".<br>Тип: безопасный.<br>Предметы: -.<br>Сущности: -.</p>
-                    <p>Уровень представляет собой квадратную комнату с двумя дверьми, расположенными на противоположных стенах. Более светлая дверь ведет на случайный безопасный уровень, более темная - на случайный небезопасный уровень.</p>
-                    <p>Попасть на этот уровень каким-либо образом через другой уровень невозможно.</p>
+                    <p>Name: "The Entrance".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
+                    <p>The level is a square room with two doors located on opposite walls. The lighter door leads to a random safe level, the darker one leads to a random unsafe level.</p>
+                    <p>It is impossible to reach this level from any other level.</p>
                 `
             },
             {
@@ -29,9 +29,9 @@ const guideDataEn = [
                 title: "Level 0",
                 content: `
                     <img src="./img/section1/sub1-3.jpg" alt="Level 0" class="content-image">
-                    <p>Название: "Офисный лабиринт".<br>Тип: небезопасный.<br>Предметы: пистолет, броня 25%, батарейка, патроны к пистолету x30.<br>Сущности: Улыбающийся, Крадущийся, Карьерист.</p>
-                    <p>Уровень представляет собой однотонное и похожее на пустой офис помещение с затемненными элементами, множественными поворотами и пустыми комнатами. Уровень минимально наполнен мебелью.</p>
-                    <p>На уровне есть 3 двери, которые ведут на случайные небезопасные уровни.</p>
+                    <p>Name: "Office Labyrinth".<br>Type: unsafe.<br>Items: pistol, bulletproof vest 25%, battery, 9mm ammo box x30.<br>Entities: Smiling, Sneakering, Careerist.</p>
+                    <p>The level is a monotonous, empty office-like space with darkened elements, numerous turns, and empty rooms. The level is minimally furnished.</p>
+                    <p>There are 3 doors on the level that lead to random unsafe levels.</p>
                 `
             },
             {
@@ -39,9 +39,9 @@ const guideDataEn = [
                 title: "Level 2",
                 content: `
                     <img src="./img/section1/sub1-4.jpg" alt="Level 2" class="content-image">
-                    <p>Название: "Магазин".<br>Тип: небезопасный.<br>Предметы: патроны к пистолету х60, патроны к дробовику х5, фонарик, батарейка.<br>Сущности: Кассир.</p>
-                    <p>Уровень представляет собой придорожный магазин с разными товарами. Помимо полок, у стены есть прилавок с кассой, где будет стоять сущность Кассир. Магазин на первый взгляд кажется маленьким, но это аномальное место, в котором можно навсегда потеряться.</p>
-                    <p>На уровне есть дверь в подсобку, которая ведет на случайный небезопасный уровень. Если суметь выйти из магазина через главный вход и уйти в темноту, то можно попасть на случайный безопасный уровень.</p>
+                    <p>Name: "The Store".<br>Type: unsafe.<br>Items: 9mm ammo box х60, 12 gauge ammo box х10, flashlight, battery.<br>Entities: Cashier.</p>
+                    <p>The level is a roadside store with various goods. In addition to shelves, there is a counter with a cash register against the wall, where the Cashier entity stands. The store appears small at first glance, but it is an anomalous place where you can get lost forever.</p>
+                    <p>There is a door to the utility room that leads to a random unsafe level. If you manage to exit the store through the main entrance and walk into the darkness, you can reach a random safe level.</p>
                 `
             },
             {
@@ -49,9 +49,9 @@ const guideDataEn = [
                 title: "Level 3",
                 content: `
                     <img src="./img/section1/sub1-5.jpg" alt="Level 3" class="content-image">
-                    <p>Название: "Шар счастья".<br>Тип: безопасный.<br>Предметы: бутылка с миндальной водой 50% и 75%.<br>Сущности: Балун.</p>
-                    <p>Уровень представляет собой бесконечное поле с зеленой травой, голубым небом и белыми облаками. На горизонте поля виднеется большой красный воздушный шар. Изредка по полю разбросаны бутылки с миндальной водой или одиноко стоящие белые двери.</p>
-                    <p>Чтобы выйти из этого уровня на другой случайный уровень, достаточно войти в любую из белых дверей.</p>
+                    <p>Name: "Ball of happiness".<br>Type: safe.<br>Items: almond water bottle 50% and 75%.<br>Entities: Balloon.</p>
+                    <p>The level is an endless field with green grass, a blue sky, and white clouds. A large red balloon is visible on the horizon. Almond water bottles and lonely white doors are occasionally scattered across the field.</p>
+                    <p>To exit this level to another random level, simply enter any of the white doors.</p>
                 `
             },
             {
@@ -59,9 +59,9 @@ const guideDataEn = [
                 title: "Level 7",
                 content: `
                     <img src="./img/section1/sub1-6.png" alt="Level 7" class="content-image">
-                    <p>Название: "Лестница".<br>Тип: небезопасный.<br>Предметы: -.<br>Сущности: Странствующий.</p>
-                    <p>Уровень представляет собой слабо освещенный бесконечный лестничный проход большого офисного здания. На каждом этаже есть дверь с номером этажа, который всегда одинаковый и равен 19. Идти можно как наверх, так и вниз.</p>
-                    <p>На некоторых этажах на двери не будет указан номер этажа. Такая дверь может привести на случайный небезопасный уровень.</p>
+                    <p>Name: "The Staircase".<br>Type: unsafe.<br>Items: -.<br>Entities: Errant.</p>
+                    <p>The level is a dimly lit endless stairwell of a large office building. On each floor there is a door with a floor number that is always the same and equal to 19. You can go both up and down.</p>
+                    <p>On some floors the door will have no floor number. Such a door may lead to a random unsafe level.</p>
                 `
             },
             {
@@ -69,9 +69,9 @@ const guideDataEn = [
                 title: "Level 8",
                 content: `
                     <img src="./img/section1/sub1-7.png" alt="Level 8" class="content-image">
-                    <p>Название: "Офис".<br>Тип: небезопасный.<br>Предметы: красный галстук, батарейка, дробовик, патроны к дробовику x10, документы.<br>Сущности: Карьерист.</p>
-                    <p>Уровень представляет собой огромные офисные помещения, не имеющие конца. Офисные помещения имеют вид типичных американских офисов в Нью-Йорке конца 90-х и начала 00-х годов. В коридорах и кабинетах можно встретить множество сотрудников данного офиса в виде сущностей Карьерист. В здании офиса есть лифт, но его работа точно не известна.</p>
-                    <p>Для того, чтобы покинуть уровень, необходимо найти пожарный выход и пройти по лестнице вниз. С шансом 50% произойдет переход на уровень 7. В остальных случаях произойдет переход на случайный уровень.</p>
+                    <p>Name: "The Office".<br>Type: unsafe.<br>Items: red tie, battery, shotgun, 12 gauge ammo box x20, documents.<br>Entities: Careerist.</p>
+                    <p>The level consists of huge endless office spaces. The offices look like typical American offices in New York from the late 90s and early 2000s. In the corridors and offices you can meet many employees in the form of Careerist entities. There is an elevator in the building, but its operation is unknown.</p>
+                    <p>To leave the level, you need to find the fire exit and go down the stairs. With a 50% chance you will transition to Level 7. In other cases, you will transition to a random level.</p>
                 `
             },
             {
@@ -79,9 +79,9 @@ const guideDataEn = [
                 title: "Level 10",
                 content: `
                     <img src="./img/section1/sub1-8.png" alt="Level 10" class="content-image">
-                    <p>Название: "Хаб №1".<br>Тип: безопасный.<br>Предметы: -.<br>Сущности: -.</p>
-                    <p>Уровень представляет собой бесконечный дорожный туннель, по бокам которого размещено множество железных пронумерованных дверей. Туннель имеет слабое желтое освещение от ламп, а вдалеке видна лишь пустота, в которую нельзя пройти.</p>
-                    <p>Если долго путешествовать по разным уровням, можно случайно попасть на этот уровень. Для перемещения на любой конкретный уровень достаточно войти в нужную для него дверь.</p>
+                    <p>Name: "Hub №1".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
+                    <p>The level is an endless road tunnel with many numbered iron doors on the sides. The tunnel has weak yellow lighting from lamps, and only emptiness is visible in the distance, which cannot be entered.</p>
+                    <p>If you travel through different levels for a long time, you can accidentally reach this level. To move to any specific level, simply enter the corresponding door.</p>
                 `
             }
         ]
