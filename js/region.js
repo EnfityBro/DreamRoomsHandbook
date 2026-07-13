@@ -2,10 +2,10 @@ const ruLanguageRegions = ['RU', 'BY', 'UA', 'KZ', 'KG', 'TJ'];
 
 function detectRegion() {
     return new Promise((resolve) => {
-        fetch('https://ipapi.co/json/')
+        fetch('https://ipinfo.io/json')
             .then(res => res.json())
             .then(data => {
-                let countryCode = data.country_code;
+                let countryCode = data.country;
                 console.log(`User's region is ${countryCode}`);
 
                 if (ruLanguageRegions.includes(countryCode)) {
