@@ -95,10 +95,10 @@ const guideDataEn = [
                 title: "About entities",
                 content: `
                     <img src="./img/section2/sub2-1.png" alt="Entity" class="content-image">
-                    <p>Сущности бывают 3 типов:</p>
-                    <p>Мирные сущности никогда не станут атаковать или наносить вред, даже при сторонней агрессии.</p>
-                    <p>Нейтральные сущности по умолчанию не атакуют и имеют нейтральное поведение, но при сторонней агрессии или раздражении начнут атаковать или защищаться.</p>
-                    <p>Враждебные сущности всегда настроены агрессивно и могут атаковать по умолчанию.</p>
+                    <p>Entities are divided into 3 types:</p>
+                    <p>Peaceful entities will never attack or cause harm, even in response to external aggression.</p>
+                    <p>Neutral entities do not attack by default and have neutral behavior, but with external aggression or irritation, they will begin to attack or defend themselves.</p>
+                    <p>Hostile entities are always aggressive and may attack by default.</p>
                 `
             },
             {
@@ -106,9 +106,9 @@ const guideDataEn = [
                 title: "Smiling",
                 content: `
                     <img src="./img/section2/sub2-2.png" alt="Smiling" class="content-image">
-                    <p>Тип: враждебный.<br>Здоровье: 50 единиц.<br>Урон: 3.5 единицы за 2 секунды.</p>
-                    <p>Гуманоидное существо с жуткой и растянутой на все лицо улыбкой. У этой сущности черная кожа, светящиеся красные глаза и белые зубы.</p>
-                    <p>Улыбающийся бродит по уровню в поисках своей жертвы. Как только жертва будет найдена - сущность сразу побежит в ее сторону, чтобы убить. После того, как Улыбающийся хотя бы раз видел свою жертву, он будет преследовать ее до тех пор, пока не убьет или сам не умрет.</p>
+                    <p>Type: hostile.<br>Health: 50 units.<br>Damage: 3.5 units per 2 seconds.</p>
+                    <p>A humanoid creature with a creepy, stretched smile across its entire face. This entity has black skin, glowing red eyes, and white teeth.</p>
+                    <p>The Smiling wanders the level in search of victim. Once it finds a victim, it immediately runs toward it to kill. After seeing its victim at least once, it will pursue them until it kills them or dies itself.</p>
                 `
             },
             {
@@ -116,9 +116,9 @@ const guideDataEn = [
                 title: "Sneakering",
                 content: `
                     <img src="./img/section2/sub2-3.png" alt="Sneakering" class="content-image">
-                    <p>Тип: враждебный.<br>Здоровье: 65 единиц.<br>Урон: 2.5 единицы за 1.5 секунды.</p>
-                    <p>Тонкокостное гуманоидное существо, с признаками разложения и жуткой скелетированной головой. Эта сущность появляется только в темных участках уровня.</p>
-                    <p>После появления эта сущность сразу нападет на жертву по близости. Существует эффективный способ борьбы с Крадущимся, если использовать фонарик или вывести его в освещенное место, тогда Крадущийся будет получать сильный урон, а сила его атак снизится на 50%.</p>
+                    <p>Type: hostile.<br>Health: 65 units.<br>Damage: 2.5 units per 1.5 seconds.</p>
+                    <p>A thin-boned humanoid creature with signs of decay and a creepy skeletal head. This entity only appears in dark areas of the level.</p>
+                    <p>Upon appearing, it immediately attacks any nearby victim. There is an effective way to fight Sneakering: use a flashlight or lure it into a lit area. Then it will take heavy damage and its attack power will be reduced by 50%.</p>
                 `
             },
             {
@@ -126,10 +126,10 @@ const guideDataEn = [
                 title: "Cashier",
                 content: `
                     <img src="./img/section2/sub2-4.png" alt="Cashier" class="content-image">
-                    <p>Тип: нейтральный.<br>Здоровье: 100 единиц.<br>Урон: 0.5 единиц за 1 секунду (пассивная атака), 30 единиц за 2.5 секунды (агрессивная атака).</p>
-                    <p>Сущность представляет собой жуткого человека в форме кассира магазина. Фартук запачкан кровью, кожа имеет бледный оттенок, а взгляд полон безумия.</p>
-                    <p>Стоит у кассы и следит за посетителями. Иногда Кассир может быть замечен в темных уголках магазина. Сущность фантомна и в случае смерти не исчезает с уровня. Встречается только на уровне 2.</p>
-                    <p>Если слишком долго смотреть на Кассира или красть предметы из магазина, то он перекроет все способы выхода и заставит раздражителя страдать (пассивная атака). При явной агрессии со стороны посетителя Кассир атакует из дробовика (агрессивная атака) и перекрывает все выходы.</p>
+                    <p>Type: neutral.<br>Health: 100 units.<br>Damage: 0.5 units per 1 second (passive attack), 30 units per 2.5 seconds (aggressive attack).</p>
+                    <p>The entity is a creepy person in a store cashier uniform. The apron is stained with blood, the skin has a pale hue, and the gaze is full of madness.</p>
+                    <p>It stands at the cash register and watches visitors. Sometimes the Cashier can be seen in dark corners of the store. The entity is phantom-like and does not disappear from the level upon death. It appears only on Level 2.</p>
+                    <p>If you stare at the Cashier for too long or steal items from the store, it will block all exits and make the offender suffer (passive attack). In case of obvious aggression, the Cashier attacks with a shotgun (aggressive attack) and blocks all exits.</p>
                 `
             },
             {
@@ -137,9 +137,9 @@ const guideDataEn = [
                 title: "Errant",
                 content: `
                     <img src="./img/section2/sub2-5.png" alt="Errant" class="content-image">
-                    <p>Тип: враждебный.<br>Здоровье: 150 единиц.<br>Урон: 15 единиц за 1 секунду.</p>
-                    <p>Крайне опасная сущность, представляет собой человекоподобное существо в черной одежде с капюшоном.</p>
-                    <p>Когда Странствующий появляется на уровне, то сначала будет находится рядом с жертвой и наблюдать за ее действиями. При попытке подойти к этой сущности ближе или выстрелить в нее, эта сущность будет перемещаться на другое место. Спустя какое-то время Странствующий нападет на жертву сзади с оглушающим звуком. Его можно отпугнуть, если не двигаться какое-то время, когда он появился на уровне и пока не заинтересован в убийстве жертвы.</p>
+                    <p>Type: hostile.<br>Health: 150 units.<br>Damage: 15 units per 1 second.</p>
+                    <p>An extremely dangerous entity that looks like a humanoid figure in black hooded clothing.</p>
+                    <p>When the Errant appears on the level, it first stays near the victim and observes their actions. If you try to approach or shoot it, the entity will teleport to another location. After some time, it will attack the victim from behind with a deafening sound. You can scare it away by staying completely still for a while when it appears and is not yet interested in killing.</p>
                 `
             },
             {
@@ -147,10 +147,10 @@ const guideDataEn = [
                 title: "Careerist",
                 content: `
                     <img src="./img/section2/sub2-6.png" alt="Careerist" class="content-image">
-                    <p>Тип: нейтральный.<br>Здоровье: 80 единиц.<br>Урон: 2 единицы за 2 секунды.</p>
-                    <p>Уставший офисный сотрудник, одет с белую или синюю рубашку, носит синий (30% шанс), черный (35% шанс) или красный (5% шанс) галстук или верхняя пуговица расстегнута (30% шанс), черные или серые брюки, лакированные черные туфли, может носить очки или чемодан в руках.</p>
-                    <p>Сущность не будет атаковать, пока на нее никто не смотрит или к ней не проявляют агрессию. Если смотреть на Карьериста слишком долго или атаковать, то он начнет преследовать и атаковать жертву в поле своего зрения. Сущность будет бездействовать до тех пор, пока не начнет взаимодействие с чем-либо.</p>
-                    <p>Встречается на некоторых небезопасных уровнях, в основном, представляющих собой различные помещения, похожие на офисы.</p>
+                    <p>Type: neutral.<br>Health: 80 units.<br>Damage: 2 units per 2 seconds.</p>
+                    <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
+                    <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something.</p>
+                    <p>It appears on some unsafe levels, mostly those resembling office spaces.</p>
                 `
             },
             {
@@ -158,9 +158,9 @@ const guideDataEn = [
                 title: "Balloon",
                 content: `
                     <img src="./img/section2/sub2-7.png" alt="Balloon" class="content-image">
-                    <p>Тип: мирный.<br>Здоровье: 5 единиц.<br>Урон: -.</p>
-                    <p>Сущность в виде разноцветного воздушного шарика с глазами и ртом с улыбкой. Чаще всего встречается в красном, желтом, зеленом или голубых цветах.</p>
-                    <p>Балун может просто летать по уровню или следовать за выбранной целью.</p>
+                    <p>Type: peaceful.<br>Health: 5 units.<br>Damage: -.</p>
+                    <p>An entity in the form of a colorful balloon with eyes and a smiling mouth. Most often found in red, yellow, green, or blue colors.</p>
+                    <p>The Balloon can simply float around the level or follow a chosen target.</p>
                 `
             }
         ]
@@ -297,9 +297,9 @@ const guideDataEn = [
                 title: "Incident №1",
                 content: `
                     <img src="./img/section4/sub4-1.png" alt="Incident №1" class="content-image">
-                    <p>Название: "Черные головы".<br>Уровень: 8.<br>Шанс появления: 10%.</p>
-                    <p>Условия инцидента:<br>1. Нельзя смотреть на сущностей с черными головами.<br>2. Нельзя идти в сторону странных звуков.<br>3. Необходимо двигаться в сторону компьютеров.<br>4. За компьютером найти и открыть файл "Incident_1.exe".</p>
-                    <p>Шанс удачных последствий при выполнении условий: 90%.<br>Удачные последствия инцидента: пропажа всех сущностей с уровня до следующего посещения.<br>Неудачные последствия инцидента: моментальная смерть от удушья.</p>
+                    <p>Name: "Black heads".<br>Level: 8.<br>Chance of occurrence: 10%.</p>
+                    <p>Incident conditions:<br>1. Do not look at entities with black heads.<br>2. Do not go toward strange sounds.<br>3. Move toward the computers.<br>4. At a computer, find and open the file "Incident_1.exe".</p>
+                    <p>Chance of positive outcome if conditions are met: 90%.<br>Positive outcome: all entities disappear from the level until the next visit.<br>Negative outcome: instant death by suffocation.</p>
                 `
             }
         ]
