@@ -305,3 +305,13 @@ const guideDataRu = [
         ]
     }
 ];
+
+const staticTextsDictRu = {
+    'hero-desc': `Одиночное приключение, где тебе предстоит исследовать лиминальные уровни, встречаться с разными сущностями, разгадывать скрытую историю и переживать опасные инциденты!<br>Следи за новостями проекта в <a href="https://t.me/enfity_games" target="_blank" class="telegram-link" title="Присоединяйся в Telegram">Telegram канале</a>!`,
+    'enter-btn': 'НАЧАТЬ ИССЛЕДОВАНИЕ',
+    'main-section': 'РАЗДЕЛЫ',
+    'sub-section': 'ПОДРАЗДЕЛЫ',
+    'content-section': 'ДЕТАЛИ',
+    'footer-text': '\u00A9 2026 Dream Rooms. Все аномалии принадлежат нам.',
+    'empty-state': `<div id="empty-state" class="empty-state"><p>Выбери подраздел для просмотра детальной информации...</p></div>`
+};

@@ -15,8 +15,8 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="glitch" data-text="DREAM ROOMS">DREAM ROOMS</h1>
-            <p class="hero-desc">Одиночное приключение, где тебе предстоит исследовать лиминальные уровни, встречаться с разными сущностями, разгадывать скрытую историю и переживать опасные инциденты!<br>Следи за новостями проекта в <a href="https://t.me/enfity_games" target="_blank" class="telegram-link" title="Присоединяйся в Telegram">Telegram канале</a>!</p>
-            <button onclick="scrollToGuide()" class="enter-btn">НАЧАТЬ ИССЛЕДОВАНИЕ</button>
+            <p id="hero-desc" class="hero-desc">A solo adventure where you will explore liminal levels, encounter different entities, uncover a hidden story, and experience dangerous incidents!<br>Follow the project news in the <a href="https://t.me/enfity_games" target="_blank" class="telegram-link" title="Join us on Telegram">Telegram channel</a>!</p>
+            <button onclick="scrollToGuide()" id="enter-btn" class="enter-btn">START EXPLORING</button>
         </div>
     </header>
 
@@ -25,19 +25,19 @@
         <div class="guide-container">
             <!-- Left Column: Main Sections -->
             <div class="column left-column">
-                <h2 class="section-title">РАЗДЕЛЫ</h2>
+                <h2 id="main-section" class="section-title">SECTIONS</h2>
                 <div id="main-sections" class="sections-list"></div>
             </div>
 
             <!-- Middle Column: Subsections -->
             <div class="column middle-column">
-                <h2 class="section-title">ПОДРАЗДЕЛЫ</h2>
+                <h2 id="sub-section" class="section-title">SUBSECTIONS</h2>
                 <div id="subsections" class="sections-list"></div>
             </div>
 
             <!-- Right Column: Content -->
             <div class="column right-column">
-                <h2 class="section-title">ДЕТАЛИ</h2>
+                <h2 id="content-section" class="section-title">DETAILS</h2>
                 <div id="content-area" class="content-area">
                     <!-- JS populated -->
                 </div>
@@ -48,7 +48,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2026 Dream Rooms. Все аномалии принадлежат нам.</p>
+            <p id="footer-text">&copy; 2026 Dream Rooms. All anomalies belong to us.</p>
             <div class="vhs-effect">SIGNAL LOST • NO ESCAPE • KEEP MOVING</div>
         </div>
     </footer>

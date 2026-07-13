@@ -1,4 +1,5 @@
 let guideData;
+let emptyStateText;
 let currentMainSection = null;
 let currentSubsection = null;
 
@@ -69,11 +70,7 @@ function renderContent() {
 // Clear content
 function clearContent() {
     const container = document.getElementById('content-area');
-    container.innerHTML = `
-        <div class="empty-state">
-            <p>Выбери подраздел для просмотра детальной информации...</p>
-        </div>
-    `;
+    container.innerHTML = emptyStateText;
 }
 
 // Scroll to guide

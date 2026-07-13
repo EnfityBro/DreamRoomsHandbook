@@ -305,3 +305,13 @@ const guideDataEn = [
         ]
     }
 ];
+
+const staticTextsDictEn = {
+    'hero-desc': `A solo adventure where you will explore liminal levels, encounter different entities, uncover a hidden story, and experience dangerous incidents!<br>Follow the project news in the <a href="https://t.me/enfity_games" target="_blank" class="telegram-link" title="Join us on Telegram">Telegram channel</a>!`,
+    'enter-btn': 'START EXPLORING',
+    'main-section': 'SECTIONS',
+    'sub-section': 'SUBSECTIONS',
+    'content-section': 'DETAILS',
+    'footer-text': '\u00A9 2026 Dream Rooms. All anomalies belong to us.',
+    'empty-state': `<div id="empty-state" class="empty-state"><p>Select a subsection to view detailed information...</p></div>`
+};
