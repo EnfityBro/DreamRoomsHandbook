@@ -174,9 +174,9 @@ const guideDataEn = [
                 title: "Almond water bottle",
                 content: `
                     <img src="./img/section3/sub3-1.png" alt="Almond water bottle" class="content-image">
-                    <p>Может быть наполнена на 50%, 75% или 100%.</p>
-                    <p>При использовании миндальная вода восполняет здоровье на то количество, на которое она будет наполнена. Миндальную воду можно использовать всегда, даже когда полное здоровье, но в таком случае конкретная бутылка миндальной воды израсходуется напрасно.</p>
-                    <p>В инвентаре можно хранить не более 3 бутылок миндальной воды любого уровня наполненности.</p>
+                    <p>Can be filled to 50%, 75%, or 100%.</p>
+                    <p>When used, almond water restores health equal to its fill percentage. Almond water can always be used, even at full health, but in that case the bottle will be wasted.</p>
+                    <p>No more than 3 almond water bottles of any fill level can be stored in the inventory.</p>
                 `
             },
             {
@@ -184,9 +184,9 @@ const guideDataEn = [
                 title: "Bulletproof vest",
                 content: `
                     <img src="./img/section3/sub3-2.png" alt="Bulletproof vest" class="content-image">
-                    <p>Может иметь 25%, 50%, 75% или 100% прочности.</p>
-                    <p>Броня защищает здоровье от любого урона до тех пор, пока у нее есть запас прочности. Броню можно надеть только тогда, когда ее прочность ниже или равна максимально возможной прочности, которую можно иметь.</p>
-                    <p>В инвентаре можно хранить не более 1 брони любого уровня прочности.</p>
+                    <p>Can have 25%, 50%, 75% or 100% durability.</p>
+                    <p>Bulletproof vest protects health from any damage as long as it has remaining durability. Bulletproof vest can only be equipped if its durability is less than or equal to the maximum possible durability that can be had.</p>
+                    <p>No more than 1 bulletproof vest of any durability can be stored in the inventory.</p>
                 `
             },
             {
@@ -194,8 +194,9 @@ const guideDataEn = [
                 title: "Pistol",
                 content: `
                     <img src="./img/section3/sub3-3.png" alt="Pistol" class="content-image">
-                    <p>Стандартное оружие, имеет относительно средние характеристики, простое в обращении.</p>
-                    <p>Калибр: 9mm.<br>Емкость магазина: 15 патронов.</p>
+                    <p>Standard weapon with relatively average stats, easy to handle.</p>
+                    <p>Caliber: 9mm.<br>Magazine capacity: 15 rounds.</p>
+                    <p>No more than 1 such pistol can be stored in the inventory. No more than 150 rounds to fire at a time can be prepared.</p>
                 `
             },
             {
@@ -203,8 +204,8 @@ const guideDataEn = [
                 title: "9mm ammo box",
                 content: `
                     <img src="./img/section3/sub3-4.png" alt="9mm ammo box" class="content-image">
-                    <p>Коробка с патронами может содержать 15, 30 или 60 патронов калибра 9mm.</p>
-                    <p>Характеристики пули 9mm:<br>Скорость: 250 м/с.<br>Урон: 12 единиц.<br>Время полета: 4 сек.</p>
+                    <p>An ammo box can contain 15, 30, or 60 rounds of 9mm caliber.</p>
+                    <p>9mm bullet characteristics:<br>Speed: 250 m/s.<br>Damage: 12 units.<br>Flight time: 4 sec.</p>
                 `
             },
             {
@@ -212,8 +213,9 @@ const guideDataEn = [
                 title: "Shotgun",
                 content: `
                     <img src="./img/section3/sub3-5.png" alt="Shotgun" class="content-image">
-                    <p>Старый помповый дробовик. Опасное и сильное оружие, имеет убойный урон вблизи. Нужно уметь правильно перезаряжать и целиться.</p>
-                    <p>Калибр: 12.<br>Емкость магазина: 5 патронов.</p>
+                    <p>An old pump-action shotgun. A dangerous and powerful weapon with lethal damage at close range. Requires proper reloading and aiming skills.</p>
+                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.</p>
+                    <p>No more than 1 such shotgun can be stored in the inventory. No more than 50 rounds to fire at a time can be prepared.</p>
                 `
             },
             {
@@ -221,8 +223,8 @@ const guideDataEn = [
                 title: "12 gauge ammo box",
                 content: `
                     <img src="./img/section3/sub3-6.png" alt="12 gauge ammo box" class="content-image">
-                    <p>Коробка с патронами может содержать 10 или 20 дробовых патронов 12-го калибра.</p>
-                    <p>Характеристики дроби 12-го калибра:<br>Скорость: 150 м/с.<br>Урон: 9 единиц.<br>Время полета: 3.5 сек.</p>
+                    <p>An ammo box can contain 10 or 20 rounds of 12 gauge shotgun shells.</p>
+                    <p>12 gauge shot characteristics:<br>Speed: 150 m/s.<br>Damage: 9 units.<br>Flight time: 3.5 sec.</p>
                 `
             },
             {
@@ -230,8 +232,8 @@ const guideDataEn = [
                 title: "Flashlight",
                 content: `
                     <img src="./img/section3/sub3-7.png" alt="Flashlight" class="content-image">
-                    <p>Лежит в инвентаре по умолчанию. Фонариком можно подсвечивать темные места уровней. Свет этого фонарика может навредить некоторым сущностям.</p>
-                    <p>Может непрерывно светить на протяжении 3 минут, нужно периодически заряжать батарейками.</p>
+                    <p>The flashlight can illuminate dark areas of levels. Its light can harm certain entities.</p>
+                    <p>It can shine continuously for 3 minutes and needs to be recharged with batteries periodically.</p>
                 `
             },
             {
@@ -239,7 +241,7 @@ const guideDataEn = [
                 title: "Battery",
                 content: `
                     <img src="./img/section3/sub3-8.png" alt="Battery" class="content-image">
-                    <p>Дает +50% к заряду предмета. Может быть использована для разных электроприборов на уровне или фонарика.</p>
+                    <p>Gives +50% charge to an item. Can be used for various electrical devices on the level or the flashlight.</p>
                 `
             },
             {
@@ -247,7 +249,7 @@ const guideDataEn = [
                 title: "Note",
                 content: `
                     <img src="./img/section3/sub3-9.png" alt="Note" class="content-image">
-                    <p>Информационное сообщение на уровне. Может содержать разные инструкции.</p>
+                    <p>An informational message found on the level. May contain various instructions.</p>
                 `
             },
             {
@@ -255,8 +257,8 @@ const guideDataEn = [
                 title: "Red tie",
                 content: `
                     <img src="./img/section3/sub3-10.png" alt="Red tie" class="content-image">
-                    <p>Пока находится в инвентаре, сущность "Карьерист" не может навредить.</p>
-                    <p>Можно получить, если убить сущность "Карьерист" с красным галстуком.</p>
+                    <p>While in the inventory, the Careerist entity cannot harm.</p>
+                    <p>Obtained by killing a Careerist entity wearing a red tie.</p>
                 `
             },
             {
@@ -264,8 +266,8 @@ const guideDataEn = [
                 title: "Documents",
                 content: `
                     <img src="./img/section3/sub3-11.png" alt="Documents" class="content-image">
-                    <p>Папка с различными задокументированными сведениями организаций или личных персон о происходящем на уровнях.</p>
-                    <p>Редкий предмет, если прочитать содержимое некоторых документов, можно попасть в неприятности.</p>
+                    <p>A folder with various documented information from organizations or individuals about what is happening at the levels.</p>
+                    <p>A rare item. Reading the contents of some documents can lead to trouble.</p>
                 `
             },
             {
@@ -273,8 +275,9 @@ const guideDataEn = [
                 title: "Assault rifle",
                 content: `
                     <img src="./img/section3/sub3-12.png" alt="Assault rifle" class="content-image">
-                    <p>Старая русская надежная штурмовая винтовка калибра 7.62mm. Имеет режим автоматического огня, отлично подходит для стрельбы на средние и дальние дистанции.</p>
-                    <p>Калибр: 7.62mm.<br>Емкость магазина: 30 патронов.</p>
+                    <p>An old reliable Russian assault rifle chambered in 7.62mm. Has automatic fire mode and is excellent for medium to long range combat.</p>
+                    <p>Caliber: 7.62mm.<br>Magazine capacity: 30 rounds.</p>
+                    <p>No more than 1 such assault rifle can be stored in the inventory. No more than 300 rounds to fire at a time can be prepared.</p>
                 `
             },
             {
@@ -282,8 +285,8 @@ const guideDataEn = [
                 title: "7.62 ammo box",
                 content: `
                     <img src="./img/section3/sub3-13.png" alt="7.62 ammo box" class="content-image">
-                    <p>Коробка с патронами может содержать 60, 90 или 120 патронов калибра 7.62mm.</p>
-                    <p>Характеристики пули 7.62mm:<br>Скорость: 300 м/с.<br>Урон: 9.5 единиц.<br>Время полета: 5 сек.</p>
+                    <p>An ammo box can contain 60, 90, or 120 rounds of 7.62mm caliber.</p>
+                    <p>7.62mm bullet characteristics:<br>Speed: 300 m/s.<br>Damage: 9.5 units.<br>Flight time: 5 sec.</p>
                 `
             }
         ]
