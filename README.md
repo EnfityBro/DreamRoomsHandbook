@@ -5,7 +5,7 @@
 > 
 > **Dream Rooms Handbook** - is a game guide website that contains information about the game's content. The website is a copy of the in-game guide available from the game menu.
 
-### Follow the project's news in the official [Telegram channel](https://t.me/enfity_games)!
+### Follow the project's news in the official [Telegram channel](https://telegram.me/enfity_games)!
 
 ### The website is available at: https://enfitybro.github.io/DreamRoomsHandbook/
 

@@ -319,7 +319,7 @@ const guideDataRu = [
 ];
 
 const staticTextsDictRu = {
-    'hero-desc': `Одиночное приключение, где тебе предстоит исследовать лиминальные уровни, встречаться с разными сущностями, разгадывать скрытую историю и переживать опасные инциденты!<br>Следи за новостями проекта в <a href="https://t.me/enfity_games" target="_blank" class="telegram-link" title="Присоединяйся в Telegram">Telegram канале</a>!`,
+    'hero-desc': `Одиночное приключение, где тебе предстоит исследовать лиминальные уровни, встречаться с разными сущностями, разгадывать скрытую историю и переживать опасные инциденты!<br>Следи за новостями проекта в <a href="https://telegram.me/enfity_games" target="_blank" class="telegram-link" title="Присоединяйся в Telegram">Telegram канале</a>!`,
     'enter-btn': 'НАЧАТЬ ИССЛЕДОВАНИЕ',
     'main-section': 'РАЗДЕЛЫ',
     'sub-section': 'ПОДРАЗДЕЛЫ',
