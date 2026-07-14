@@ -223,7 +223,7 @@ const guideDataEn = [
                 title: "12 gauge ammo box",
                 content: `
                     <img src="./img/section3/sub3-6.png" alt="12 gauge ammo box" class="content-image">
-                    <p>An ammo box can contain 10 or 20 rounds of 12 gauge shotgun shells.</p>
+                    <p>An ammo box can contain 10 or 20 rounds of 12 gauge shotgun shells. One shell contains 5 shots.</p>
                     <p>12 gauge shot characteristics:<br>Speed: 150 m/s.<br>Damage: 9 units.<br>Flight time: 3.5 sec.</p>
                 `
             },
@@ -301,7 +301,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section4/sub4-1.png" alt="Incidents" class="content-image">
                     <p>Incidents are sudden anomalous occurrences that can only occur at unsafe levels and represent a deadly threat.</p>
-                    <p>A warning about the incident beginning is some anomalous behavior at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome is always a mysterious death.</p>
+                    <p>A warning about the incident beginning is some anomalous behavior at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome could be a mysterious death.</p>
                 `
             },
             {
