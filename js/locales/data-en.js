@@ -196,7 +196,7 @@ const guideDataEn = [
                     <img src="./img/section3/sub3-3.png" alt="Pistol" class="content-image">
                     <p>Standard weapon with relatively average stats, easy to handle.</p>
                     <p>No more than 1 such pistol can be stored in the inventory. No more than 150 rounds to fire at a time can be prepared.</p>
-                    <p>Caliber: 9mm.<br>Magazine capacity: 15 rounds.<br>Fire rate: 198 shots per minute.<br>Reload time: 2 seconds.<br>Shooting accuracy: 0.65.<br>Recoil: low.</p>
+                    <p>Caliber: 9mm.<br>Magazine capacity: 15 rounds.<br>Fire rate: 200 shots per minute.<br>Reload time: 2 seconds.<br>Shooting accuracy: 8.7/10.<br>Recoil: low.</p>
                 `
             },
             {
@@ -205,7 +205,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-4.png" alt="9mm ammo box" class="content-image">
                     <p>An ammo box can contain 15, 30, or 60 rounds of 9mm caliber.</p>
-                    <p>9mm bullet characteristics:<br>Speed: 250 m/s.<br>Damage: 12 units.<br>Flight time: 4 sec.</p>
+                    <p>9mm bullet characteristics:<br>Speed: 250 m/s.<br>Damage: 12 units.<br>Flight time: 4 seconds.</p>
                 `
             },
             {
@@ -215,7 +215,7 @@ const guideDataEn = [
                     <img src="./img/section3/sub3-5.png" alt="Shotgun" class="content-image">
                     <p>An old pump-action shotgun. A dangerous and powerful weapon with lethal damage at close range. Requires proper reloading and aiming skills.</p>
                     <p>No more than 1 such shotgun can be stored in the inventory. No more than 50 rounds to fire at a time can be prepared.</p>
-                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.<br>Fire rate: 150 shots per minute.<br>Reload time: 2.5 seconds.<br>Shooting accuracy: 3.5.<br>Recoil: high.</p>
+                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.<br>Fire rate: 150 shots per minute.<br>Reload time: 2.5 seconds.<br>Shooting accuracy: 3.0/10.<br>Recoil: high.</p>
                 `
             },
             {
@@ -224,7 +224,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-6.png" alt="12 gauge ammo box" class="content-image">
                     <p>An ammo box can contain 10 or 20 rounds of 12 gauge shotgun shells. One shell contains 5 shots.</p>
-                    <p>12 gauge shot characteristics:<br>Speed: 150 m/s.<br>Damage: 9 units.<br>Flight time: 3.5 sec.</p>
+                    <p>12 gauge shot characteristics:<br>Speed: 150 m/s.<br>Damage: 9 units.<br>Flight time: 3.5 seconds.</p>
                 `
             },
             {
@@ -277,7 +277,7 @@ const guideDataEn = [
                     <img src="./img/section3/sub3-12.png" alt="Assault rifle" class="content-image">
                     <p>An old reliable Russian assault rifle chambered in 7.62mm. Has automatic fire mode and is excellent for medium to long range combat.</p>
                     <p>No more than 1 such assault rifle can be stored in the inventory. No more than 300 rounds to fire at a time can be prepared.</p>
-                    <p>Caliber: 7.62mm.<br>Magazine capacity: 30 rounds.<br>Fire rate: 1200 shots per minute.<br>Reload time: 2 seconds.<br>Shooting accuracy: 0.75.<br>Recoil: medium.</p>
+                    <p>Caliber: 7.62mm.<br>Magazine capacity: 30 rounds.<br>Fire rate: 1200 shots per minute.<br>Reload time: 2 seconds.<br>Shooting accuracy: 8.5/10.<br>Recoil: medium.</p>
                 `
             },
             {
@@ -286,7 +286,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-13.png" alt="7.62 ammo box" class="content-image">
                     <p>An ammo box can contain 60, 90, or 120 rounds of 7.62mm caliber.</p>
-                    <p>7.62mm bullet characteristics:<br>Speed: 300 m/s.<br>Damage: 9.5 units.<br>Flight time: 5 sec.</p>
+                    <p>7.62mm bullet characteristics:<br>Speed: 300 m/s.<br>Damage: 9.5 units.<br>Flight time: 5 seconds.</p>
                 `
             }
         ]
