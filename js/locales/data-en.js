@@ -195,7 +195,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-3.png" alt="Pistol" class="content-image">
                     <p>Standard weapon with relatively average stats, easy to handle.</p>
-                    <p>Caliber: 9mm.<br>Magazine capacity: 15 rounds.</p>
+                    <p>Caliber: 9mm.<br>Magazine capacity: 15 rounds.<br>Fire rate: 198 shots per minute.<br>Reload time: 2 seconds.<br>Shooting accuracy: 0.65.<br>Recoil: low.</p>
                     <p>No more than 1 such pistol can be stored in the inventory. No more than 150 rounds to fire at a time can be prepared.</p>
                 `
             },
@@ -214,7 +214,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-5.png" alt="Shotgun" class="content-image">
                     <p>An old pump-action shotgun. A dangerous and powerful weapon with lethal damage at close range. Requires proper reloading and aiming skills.</p>
-                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.</p>
+                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.<br>Fire rate: 150 shots per minute.<br>Reload time: 2.5 seconds.<br>Shooting accuracy: 3.5.<br>Recoil: high.</p>
                     <p>No more than 1 such shotgun can be stored in the inventory. No more than 50 rounds to fire at a time can be prepared.</p>
                 `
             },
@@ -276,7 +276,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-12.png" alt="Assault rifle" class="content-image">
                     <p>An old reliable Russian assault rifle chambered in 7.62mm. Has automatic fire mode and is excellent for medium to long range combat.</p>
-                    <p>Caliber: 7.62mm.<br>Magazine capacity: 30 rounds.</p>
+                    <p>Caliber: 7.62mm.<br>Magazine capacity: 30 rounds.<br>Fire rate: 1200 shots per minute.<br>Reload time: 2 seconds.<br>Shooting accuracy: 0.75.<br>Recoil: medium.</p>
                     <p>No more than 1 such assault rifle can be stored in the inventory. No more than 300 rounds to fire at a time can be prepared.</p>
                 `
             },
