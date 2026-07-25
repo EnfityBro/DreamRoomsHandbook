@@ -117,7 +117,7 @@ const guideDataEn = [
                 title: "Sneakering",
                 content: `
                     <img src="./img/section2/sub2-3.png" alt="Sneakering" class="content-image">
-                    <p>Type: hostile.<br>Health: 65 units.<br>Damage: 2.5 units per 1.5 seconds.</p>
+                    <p>Type: hostile.<br>Health: 65 units.<br>Speed: 4 km/h.<br>Damage: 2.5 units per 1.5 seconds.</p>
                     <p>A thin-boned humanoid creature with signs of decay and a creepy skeletal head. This entity only appears in dark areas of the level.</p>
                     <p>Upon appearing, it immediately attacks any nearby victim. There is an effective way to fight Sneakering: use a flashlight or lure it into a lit area. Then it will take heavy damage and its attack power will be reduced by 50%.</p>
                 `
@@ -127,7 +127,7 @@ const guideDataEn = [
                 title: "Cashier",
                 content: `
                     <img src="./img/section2/sub2-4.png" alt="Cashier" class="content-image">
-                    <p>Type: neutral.<br>Health: 100 units.<br>Damage: 0.5 units per 1 second (passive attack), 30 units per 2.5 seconds (aggressive attack).</p>
+                    <p>Type: neutral.<br>Health: 100 units.<br>Speed: 3.5 km/h.<br>Damage: 0.5 units per 1 second (passive attack), 30 units per 2.5 seconds (aggressive attack).</p>
                     <p>The entity is a creepy person in a store cashier uniform. The apron is stained with blood, the skin has a pale hue, and the gaze is full of madness.</p>
                     <p>It stands at the cash register and watches visitors. Sometimes the Cashier can be seen in dark corners of the store. The entity is phantom-like and does not disappear from the level upon death. It appears only on Level 2.</p>
                     <p>If you stare at the Cashier for too long or steal items from the store, it will block all exits and make the offender suffer (passive attack). In case of obvious aggression, the Cashier attacks with a shotgun (aggressive attack) and blocks all exits.</p>
@@ -138,7 +138,7 @@ const guideDataEn = [
                 title: "Errant",
                 content: `
                     <img src="./img/section2/sub2-5.png" alt="Errant" class="content-image">
-                    <p>Type: hostile.<br>Health: 150 units.<br>Damage: 15 units per 1 second.</p>
+                    <p>Type: hostile.<br>Health: 150 units.<br>Speed: -.<br>Damage: 15 units per 1 second.</p>
                     <p>An extremely dangerous entity that looks like a humanoid figure in black hooded clothing.</p>
                     <p>When the Errant appears on the level, it first stays near the victim and observes their actions. If you try to approach or shoot it, the entity will teleport to another location. After some time, it will attack the victim from behind with a deafening sound. You can scare it away by staying completely still for a while when it appears and is not yet interested in killing.</p>
                 `
@@ -148,7 +148,7 @@ const guideDataEn = [
                 title: "Careerist",
                 content: `
                     <img src="./img/section2/sub2-6.png" alt="Careerist" class="content-image">
-                    <p>Type: neutral.<br>Health: 80 units.<br>Damage: 2 units per 2 seconds.</p>
+                    <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 2 units per 2 seconds.</p>
                     <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
                     <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something.</p>
                     <p>It appears on some unsafe levels, mostly those resembling office spaces.</p>
@@ -159,7 +159,7 @@ const guideDataEn = [
                 title: "Balloon",
                 content: `
                     <img src="./img/section2/sub2-7.png" alt="Balloon" class="content-image">
-                    <p>Type: peaceful.<br>Health: 5 units.<br>Damage: -.</p>
+                    <p>Type: peaceful.<br>Health: 5 units.<br>Speed: 1 km/h.<br>Damage: -.</p>
                     <p>An entity in the form of a colorful balloon with eyes and a smiling mouth. Most often found in red, yellow, green, or blue colors.</p>
                     <p>The Balloon can simply float around the level or follow a chosen target.</p>
                 `
