@@ -316,6 +316,20 @@ const guideDataRu = [
                 `
             }
         ]
+    },
+    {
+        id: "section5",
+        title: "Странник",
+        subsections: [
+            {
+                id: "sub5-1",
+                title: "О Страннике",
+                content: `
+                    <img src="./img/section5/sub5-1.jpg" alt="Странник" class="content-image">
+                    <p>Инфо об игроке.</p>
+                `
+            }
+        ]
     }
 ];
 

@@ -316,6 +316,20 @@ const guideDataEn = [
                 `
             }
         ]
+    },
+    {
+        id: "section5",
+        title: "Stranger",
+        subsections: [
+            {
+                id: "sub5-1",
+                title: "About Stranger",
+                content: `
+                    <img src="./img/section5/sub5-1.jpg" alt="Stranger" class="content-image">
+                    <p>Info about player.</p>
+                `
+            }
+        ]
     }
 ];
 
