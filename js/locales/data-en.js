@@ -106,7 +106,7 @@ const guideDataEn = [
                 title: "Smiling",
                 content: `
                     <img src="./img/section2/sub2-2.png" alt="Smiling" class="content-image">
-                    <p>Type: hostile.<br>Health: 50 units.<br>Damage: 3.5 units per 2 seconds.</p>
+                    <p>Type: hostile.<br>Health: 50 units.<br>Speed: 2 km/h.<br>Damage: 3.5 units per 1.5 seconds.</p>
                     <p>A humanoid creature with a creepy, stretched smile across its entire face. This entity has black skin, glowing red eyes, and white teeth.</p>
                     <p>The Smiling wanders the level in search of victim. Once it finds a victim, it immediately runs toward it to kill. After seeing its victim at least once, it will pursue them until it kills them or dies itself.</p>
                     <p>It is not advisable to make noise in his presence or shoot at him - the Smiling has good hearing and fast running.</p>
