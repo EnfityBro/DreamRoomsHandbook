@@ -326,7 +326,18 @@ const guideDataEn = [
                 title: "About Stranger",
                 content: `
                     <img src="./img/section5/sub5-1.jpg" alt="Stranger" class="content-image">
-                    <p>Info about player.</p>
+                    <p>A medium height and build human. Wears a black jacket with large pockets and a plaid shirt, black loose jeans, and black shoes. Has a backpack on the back.</p>
+                    <p>Presumably, this is the only being on the levels that is not their entity. Has the behavior of an ordinary person. The origin is unknown. The reason for the appearance on the levels is unknown.</p>
+                    <p>Health: 100 units.<br>Speed: 4.5 km/h.<br>Inventory capacity: 12 items.</p>
+                `
+            },
+            {
+                id: "sub5-2",
+                title: "About inventory",
+                content: `
+                    <img src="./img/section5/sub5-2.jpg" alt="Inventory" class="content-image">
+                    <p>Stranger can carry up to 1 item in the hand and hold up to 2 items in the jacket pockets, the backpack stores up to 9 items.</p>
+                    <p>Upon loss of consciousness, the Stranger loses all items from the hand and jacket's pockets, and 1/3 of the contents fall out of the backpack.</p>
                 `
             }
         ]
