@@ -108,7 +108,7 @@ const guideDataEn = [
                     <img src="./img/section2/sub2-2.png" alt="Smiling" class="content-image">
                     <p>Type: hostile.<br>Health: 50 units.<br>Speed: 2 km/h.<br>Damage: 3.5 units per 1.5 seconds.</p>
                     <p>A humanoid creature with a creepy, stretched smile across its entire face. This entity has black skin, glowing red eyes, and white teeth.</p>
-                    <p>The Smiling wanders the level in search of victim. Once it finds a victim, it immediately runs toward it to kill. After seeing its victim at least once, it will pursue them until it kills them or dies itself.</p>
+                    <p>The Smiling wanders the level in search of victim. Once it finds a victim, it immediately runs toward it to kill. After seeing its victim at least once, it will pursue them until it kills them, dies itself or loses sight of them.</p>
                     <p>It is not advisable to make noise in his presence or shoot at him - the Smiling has good hearing and fast running.</p>
                 `
             },
@@ -150,7 +150,7 @@ const guideDataEn = [
                     <img src="./img/section2/sub2-6.png" alt="Careerist" class="content-image">
                     <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 2 units per 1.25 seconds.</p>
                     <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
-                    <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something.</p>
+                    <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something. This entity is irritated by long stares, so the next time you try to look at a Careerist, he will react faster.</p>
                     <p>It appears on some unsafe levels, mostly those resembling office spaces.</p>
                 `
             },
