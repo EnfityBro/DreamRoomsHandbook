@@ -148,7 +148,7 @@ const guideDataEn = [
                 title: "Careerist",
                 content: `
                     <img src="./img/section2/sub2-6.png" alt="Careerist" class="content-image">
-                    <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 2 units per 2 seconds.</p>
+                    <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 2 units per 1.25 seconds.</p>
                     <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
                     <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something.</p>
                     <p>It appears on some unsafe levels, mostly those resembling office spaces.</p>
