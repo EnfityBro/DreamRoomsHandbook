@@ -91,9 +91,17 @@ function init() {
 }
 
 document.addEventListener('DOMContentLoaded', async function() {
+    const overlay = document.getElementById('loading-overlay');
+
     await detectRegion();
+
     if (typeof init === 'function') {
         console.log('Start Dream Rooms Handbook initialization');
         init();
+    }
+
+    if (overlay) {
+        overlay.classList.add('hidden');
+        setTimeout(() => overlay.remove(), 450);
     }
 });
