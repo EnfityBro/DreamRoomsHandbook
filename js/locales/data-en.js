@@ -127,7 +127,7 @@ const guideDataEn = [
                 title: "Cashier",
                 content: `
                     <img src="./img/section2/sub2-4.png" alt="Cashier" class="content-image">
-                    <p>Type: neutral.<br>Health: 100 units.<br>Speed: 3.5 km/h.<br>Damage: 0.5 units per 1 second (passive attack), 30 units per 2.5 seconds (aggressive attack).</p>
+                    <p>Type: neutral.<br>Health: 100 units.<br>Speed: 3.5 km/h.<br>Damage: 0.5 units per 1 second (passive attack), 45 units per 2 seconds (aggressive attack).</p>
                     <p>The entity is a creepy person in a store cashier uniform. The apron is stained with blood, the skin has a pale hue, and the gaze is full of madness.</p>
                     <p>It stands at the cash register and watches visitors. Sometimes the Cashier can be seen in dark corners of the store. The entity is phantom-like and does not disappear from the level upon death. It appears only on Level 2.</p>
                     <p>If you stare at the Cashier for too long or steal items from the store, it will block all exits and make the offender suffer (passive attack). In case of obvious aggression, the Cashier attacks with a shotgun (aggressive attack) and blocks all exits.</p>
