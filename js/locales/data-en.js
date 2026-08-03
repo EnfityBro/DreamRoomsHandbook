@@ -106,7 +106,7 @@ const guideDataEn = [
                 title: "Smiling",
                 content: `
                     <img src="./img/section2/sub2-2.png" alt="Smiling" class="content-image">
-                    <p>Type: hostile.<br>Health: 50 units.<br>Speed: 2 km/h.<br>Damage: 3.5 units per 1.5 seconds.</p>
+                    <p>Type: hostile.<br>Health: 50 units.<br>Speed: 2 km/h.<br>Damage: 7 units per 1.5 seconds.</p>
                     <p>A humanoid creature with a creepy, stretched smile across its entire face. This entity has black skin, glowing red eyes, and white teeth.</p>
                     <p>The Smiling wanders the level in search of victim. Once it finds a victim, it immediately runs toward it to kill. After seeing its victim at least once, it will pursue them until it kills them, dies itself or loses sight of them.</p>
                     <p>It is not advisable to make noise in his presence or shoot at him - the Smiling has good hearing and fast running.</p>
@@ -117,7 +117,7 @@ const guideDataEn = [
                 title: "Sneakering",
                 content: `
                     <img src="./img/section2/sub2-3.png" alt="Sneakering" class="content-image">
-                    <p>Type: hostile.<br>Health: 65 units.<br>Speed: 4 km/h.<br>Damage: 2.5 units per 1.5 seconds.</p>
+                    <p>Type: hostile.<br>Health: 65 units.<br>Speed: 4 km/h.<br>Damage: 10 units per 1 seconds.</p>
                     <p>A thin-boned humanoid creature with signs of decay and a creepy skeletal head. This entity only appears in dark areas of the level.</p>
                     <p>Upon appearing, it immediately attacks any nearby victim. There is an effective way to fight Sneakering: use a flashlight or lure it into a lit area. Then it will take heavy damage and its attack power will be reduced by 50%.</p>
                 `
@@ -138,7 +138,7 @@ const guideDataEn = [
                 title: "Errant",
                 content: `
                     <img src="./img/section2/sub2-5.png" alt="Errant" class="content-image">
-                    <p>Type: hostile.<br>Health: 150 units.<br>Speed: -.<br>Damage: 15 units per 1 second.</p>
+                    <p>Type: hostile.<br>Health: 150 units.<br>Speed: -.<br>Damage: 25 units per 1 second.</p>
                     <p>An extremely dangerous entity that looks like a humanoid figure in black hooded clothing.</p>
                     <p>When the Errant appears on the level, it first stays near the victim and observes their actions. If you try to approach or shoot it, the entity will teleport to another location. After some time, it will attack the victim from behind with a deafening sound. You can scare it away by staying completely still for a while when it appears and is not yet interested in killing.</p>
                 `
@@ -148,7 +148,7 @@ const guideDataEn = [
                 title: "Careerist",
                 content: `
                     <img src="./img/section2/sub2-6.png" alt="Careerist" class="content-image">
-                    <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 2 units per 1.25 seconds.</p>
+                    <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 4 units per 1.25 seconds.</p>
                     <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
                     <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something. This entity is irritated by long stares, so the next time you try to look at a Careerist, he will react faster.</p>
                     <p>It appears on some unsafe levels, mostly those resembling office spaces.</p>
