@@ -312,7 +312,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section4/sub4-1.png" alt="Incidents" class="content-image">
                     <p>Incidents are sudden anomalous occurrences that can only occur at unsafe levels and represent a deadly threat.</p>
-                    <p>A warning about the incident beginning is some anomalous behavior at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome could be a mysterious death.</p>
+                    <p>A warning about the incident beginning is some anomalous behavior and the Harbinger appearance at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome could be a mysterious death.</p>
                 `
             },
             {
