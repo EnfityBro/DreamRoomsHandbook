@@ -337,7 +337,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section5/sub5-1.jpg" alt="Stranger" class="content-image">
                     <p>A medium height and build human. Wears a black jacket with large pockets and a plaid shirt, black loose jeans, and black shoes. Has a backpack on the back.</p>
-                    <p>Presumably, this is the only being on the levels that is not their entity. Has the behavior of an ordinary person. The origin is unknown. The reason for the appearance on the levels is unknown.</p>
+                    <p>Presumably, this is the only being on the levels that is not their entity. Has the behavior of an ordinary person. The origin is unknown. The gender is unknown. The reason for the appearance on the levels is unknown.</p>
                     <p>Health: 100 units.<br>Speed: 4.5 km/h.<br>Inventory capacity: 12 items.</p>
                 `
             },
