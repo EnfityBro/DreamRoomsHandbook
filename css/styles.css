@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Anton+SC&display=swap');
 
 :root {
     --bg-dark: #0A0A0A;
@@ -78,8 +78,8 @@ body::after {
 }
 
 .glitch {
-    font-family: 'VT323', monospace;
-    font-size: 10.0rem;
+    font-family: 'Anton SC', monospace;
+    font-size: 8rem;
     font-weight: 900;
     color: var(--accent-gold);
     text-transform: uppercase;
