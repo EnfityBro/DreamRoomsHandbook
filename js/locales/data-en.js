@@ -310,9 +310,9 @@ const guideDataEn = [
                 title: "Incident №1",
                 content: `
                     <img src="./img/section4/sub4-2.png" alt="Incident №1" class="content-image">
-                    <p>Name: "Black heads".<br>Level: 8.<br>Chance of occurrence: 25%.</p>
-                    <p>If all entities at the level have black heads, then the following rules must be followed:<br>1. Do not look at entities with black heads.<br>2. Do not go toward strange sounds.<br>3. Move toward the computers.<br>4. At a computer, find and open the file "Incident_1.exe".</p>
-                    <p>Chance of positive outcome if conditions are met: 95%.<br>Positive outcome: all entities disappear from the level until the next visit.<br>Negative outcome: instant death by suffocation.</p>
+                    <p>Name: "Black heads".<br>Level: 8.<br>Chance of occurrence: 45%.</p>
+                    <p>If all entities at the level have black heads, then the following rules must be followed:<br>1. Do not look at entities with black heads and do not go toward strange sounds.<br>2. Look for turned on computers and turn them off. If there are no more turned on computers on the level, it means that the incident is ended.</p>
+                    <p>Chance of positive outcome if conditions are met: 97%.<br>Positive outcome: all entities disappear from the level until the next visit.<br>Negative outcome: instant death.</p>
                 `
             }
         ]
