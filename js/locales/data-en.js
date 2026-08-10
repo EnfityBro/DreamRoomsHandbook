@@ -151,7 +151,7 @@ const guideDataEn = [
                     <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 4 units per 1.25 seconds.</p>
                     <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
                     <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something. This entity is irritated by long stares, so the next time you try to look at a Careerist, he will react faster.</p>
-                    <p>It appears on some unsafe levels, mostly those resembling office spaces.</p>
+                    <p>Appears on some unsafe levels, mostly those resembling office spaces.</p>
                 `
             },
             {
@@ -162,6 +162,16 @@ const guideDataEn = [
                     <p>Type: peaceful.<br>Health: 5 units.<br>Speed: 1 km/h.<br>Damage: -.</p>
                     <p>An entity in the form of a colorful balloon with eyes and a smiling mouth. Most often found in red, yellow, green, or blue colors.</p>
                     <p>The Balloon can simply float around the level or follow a chosen target.</p>
+                `
+            },
+            {
+                id: "sub2-8",
+                title: "Harbinger",
+                content: `
+                    <img src="./img/section2/sub2-8.jpg" alt="Harbinger" class="content-image">
+                    <p>Type: neutral.<br>Health: 100 units.<br>Speed: -.<br>Damage: 50 units only 1 time.</p>
+                    <p>A humanoid figure in white hooded clothing.</p>
+                    <p>Appears at unsafe levels before an incident begins. Remains inactive until it has been noticed, then disappears after a while. If you try to attack the Harbinger, he will immediately disappear, and the attacker will receive heavy damage.</p>
                 `
             }
         ]
