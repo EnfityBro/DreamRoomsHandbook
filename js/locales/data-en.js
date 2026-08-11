@@ -117,7 +117,7 @@ const guideDataEn = [
                 title: "Sneakering",
                 content: `
                     <img src="./img/section2/sub2-3.png" alt="Sneakering" class="content-image">
-                    <p>Type: hostile.<br>Health: 65 units.<br>Speed: 4 km/h.<br>Damage: 10 units per 1 seconds.</p>
+                    <p>Type: hostile.<br>Health: 65 units.<br>Speed: 4 km/h.<br>Damage: 10 units per 1 second.</p>
                     <p>A thin-boned humanoid creature with signs of decay and a creepy skeletal head. This entity only appears in dark areas of the level.</p>
                     <p>Upon appearing, it immediately attacks any nearby victim. There is an effective way to fight Sneakering: use a flashlight or lure it into a lit area. Then it will take heavy damage and its attack power will be reduced by 50%.</p>
                 `
