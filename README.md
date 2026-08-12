@@ -8,10 +8,9 @@
 ### Follow the project's news in the official [Telegram channel](https://telegram.me/enfity_games)!
 
 ### The website is available at: https://enfitybro.github.io/DreamRoomsHandbook/
-> [!WARNING]
-> Dream Rooms Handbook website now is temporarily unavailable for russian users. This problem is currently in the process of being resolved. Use VPN temporarily now.
 
 #### Dream Rooms development started on **April 17th, 2026**. The game is currently in the prototype development stage.
+
 ---
 **© Borodkin Makar, 2026. All rights reserved.** 
 <br>The detailed license terms are in the [LICENSE](https://github.com/EnfityBro/DreamRoomsHandbook?tab=License-1-ov-file) file.
