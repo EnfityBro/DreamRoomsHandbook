@@ -9,7 +9,10 @@
 
 ### The website is available at: https://enfitybro.github.io/DreamRoomsHandbook/
 
-#### Dream Rooms development started on **April 17th, 2026**. The game is currently in the prototype development stage.
+---
+Dream Rooms development started on **April 17th, 2026**.<br>
+The game is currently in the **prototype** development stage.<br>
+![](https://progress-bar.xyz/2/?scale=8&prefix=stage%20&suffix=/8&width=200)
 
 ---
 **© Borodkin Makar, 2026. All rights reserved.** 
