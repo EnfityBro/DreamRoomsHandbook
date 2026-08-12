@@ -50,7 +50,7 @@ function selectSubsection(sub) {
     renderContent();
 
     if (isMobileDevice()){
-        scrollTo('content-area');
+        scrollTo('content-section');
     }
 }
 
