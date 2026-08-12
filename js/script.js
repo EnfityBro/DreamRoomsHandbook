@@ -48,6 +48,10 @@ function selectSubsection(sub) {
     currentSubsection = sub;
     renderSubsections();
     renderContent();
+
+    if (isMobileDevice()){
+        scrollTo('content-area');
+    }
 }
 
 // Render content
@@ -74,8 +78,18 @@ function clearContent() {
 }
 
 // Scroll to guide
-function scrollToGuide() {
-    document.getElementById('guide').scrollIntoView({ behavior: 'smooth' });
+function scrollToGuide(){
+    scrollTo('guide');
+}
+
+// Scroll to target
+function scrollTo(id){
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
+
+// Mobile device simple detection
+function isMobileDevice() {
+    return window.innerWidth <= 1024;
 }
 
 // Initialize
