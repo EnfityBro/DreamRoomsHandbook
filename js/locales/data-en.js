@@ -20,7 +20,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section1/sub1-2.jpg" alt="Level -1" class="content-image">
                     <p>Name: "The Entrance".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
-                    <p>The level is a square room with two doors located on opposite walls. The lighter door leads to a random safe level, the darker one leads to a random unsafe level.</p>
+                    <p>The level is a square room with two doors located in opposite corners of the walls. The lighter door leads to a random safe level, the darker one leads to a random unsafe level.</p>
                     <p>It is impossible to reach this level from any other level.</p>
                 `
             },
