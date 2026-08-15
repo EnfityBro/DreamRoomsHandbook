@@ -226,7 +226,7 @@ const guideDataEn = [
                     <img src="./img/section3/sub3-5.png" alt="Shotgun" class="content-image">
                     <p>An old pump-action shotgun. A dangerous and powerful weapon with lethal damage at close range. Requires proper reloading and aiming skills.</p>
                     <p>No more than 1 such shotgun can be stored in the inventory. No more than 25 rounds to fire at a time can be prepared.</p>
-                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.<br>Fire rate: 150 shots per minute.<br>Reload time: 2.5 seconds.<br>Shooting accuracy: 3.0/10.<br>Recoil: high.</p>
+                    <p>Caliber: 12.<br>Magazine capacity: 5 rounds.<br>Fire rate: 60 shots per minute.<br>Reload time: 5 seconds.<br>Shooting accuracy: 3.0/10.<br>Recoil: high.</p>
                 `
             },
             {
