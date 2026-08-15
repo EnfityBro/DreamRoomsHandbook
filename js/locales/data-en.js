@@ -216,7 +216,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-4.png" alt="9mm ammo box" class="content-image">
                     <p>An ammo box can contain 15, 30, or 60 rounds of 9mm caliber.</p>
-                    <p>9mm bullet characteristics:<br>Speed: 250 m/s.<br>Damage: 12 units.<br>Flight time: 4 seconds.</p>
+                    <p>9mm bullet characteristics:<br>Speed: 250 m/s.<br>Damage: 7 units.<br>Flight time: 4 seconds.</p>
                 `
             },
             {
