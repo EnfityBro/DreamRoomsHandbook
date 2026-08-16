@@ -11,8 +11,8 @@
 
 ---
 Dream Rooms development started on **April 17th, 2026**.<br>
-The game is currently in the **prototype** development stage.<br>
-![](https://progress-bar.xyz/2/?scale=8&prefix=stage%20&suffix=/8&width=200)
+The game is currently in the **playable fragment** development stage.<br>
+![](https://progress-bar.xyz/3/?scale=8&prefix=stage%20&suffix=/8&width=200)
 
 ---
 **© Borodkin Makar, 2026. All rights reserved.** 
