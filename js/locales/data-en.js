@@ -159,7 +159,7 @@ const guideDataEn = [
                 title: "Balloon",
                 content: `
                     <img src="./img/section2/sub2-7.png" alt="Balloon" class="content-image">
-                    <p>Type: peaceful.<br>Health: 5 units.<br>Speed: 1 km/h.<br>Damage: -.</p>
+                    <p>Type: peaceful.<br>Health: 1 unit.<br>Speed: 1 km/h.<br>Damage: -.</p>
                     <p>An entity in the form of a colorful balloon with eyes and a smiling mouth. Most often found in red, yellow, green, or blue colors.</p>
                     <p>The Balloon can simply float around the level or follow a chosen target.</p>
                 `
