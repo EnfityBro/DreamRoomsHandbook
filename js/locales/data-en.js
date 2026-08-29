@@ -9,8 +9,8 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section1/sub1-1.jpg" alt="Liminal space" class="content-image">
                     <p>There are 2 types of levels:</p>
-                    <p>Safe – levels of this type contain no hostile entities or other threats. You can find Almond Water on these levels. Peaceful or neutral entities, various items, and weapons can also be found. Bulletproof vests cannot be found on safe levels.</p>
-                    <p>Unsafe – levels of this type contain hostile or neutral entities and other threats. Almond Water and peaceful entities cannot be found here. Neutral entities, various items, weapons, and bulletproof vests can be found on unsafe levels.</p>
+                    <p>Safe – levels of this type contain no hostile entities or other threats. You can find almond water on these levels. Peaceful or neutral entities, various items, and weapons can also be found. Bulletproof vests cannot be found on safe levels.</p>
+                    <p>Unsafe – levels of this type contain hostile or neutral entities and other threats. Almond water and peaceful entities cannot be found here. Neutral entities, various items, weapons, and bulletproof vests can be found on unsafe levels.</p>
                     <p>Every level has the ability to move to another level (except the current one). Transition occurs by opening certain doors, entering empty spaces, or fulfilling specific level conditions.</p>
                 `
             },
@@ -186,7 +186,7 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section3/sub3-1.png" alt="Almond water bottle" class="content-image">
                     <p>Can be filled to 50%, 75%, or 100%.</p>
-                    <p>When used, almond water restores health equal to its fill percentage. Almond water can always be used, even at full health, but in that case the bottle will be wasted.</p>
+                    <p>When used, almond water bottle restores health equal to its fill percentage. It can always be used, even at full health, but in that case the bottle will be wasted.</p>
                     <p>No more than 3 almond water bottles of any fill level can be stored in the inventory.</p>
                 `
             },
