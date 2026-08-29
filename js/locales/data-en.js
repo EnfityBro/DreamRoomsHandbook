@@ -19,7 +19,7 @@ const guideDataEn = [
                 title: "Level -1",
                 content: `
                     <img src="./img/section1/sub1-2.jpg" alt="Level -1" class="content-image">
-                    <p>Name: "The Entrance".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
+                    <p>Name: "Entrance".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
                     <p>The level is a square room with two doors located in opposite corners of the wall. The lighter door leads to a random safe level, the darker one leads to a random unsafe level.</p>
                     <p>It is impossible to reach this level from any other level.</p>
                 `
@@ -29,7 +29,7 @@ const guideDataEn = [
                 title: "Level 0",
                 content: `
                     <img src="./img/section1/sub1-3.jpg" alt="Level 0" class="content-image">
-                    <p>Name: "Office Labyrinth".<br>Type: unsafe.<br>Items: pistol, bulletproof vest 25%, battery, 9mm ammo box x30.<br>Entities: Smiling, Sneakering, Careerist.</p>
+                    <p>Name: "Edge".<br>Type: unsafe.<br>Items: pistol, bulletproof vest 25%, battery, 9mm ammo box x30.<br>Entities: Smiling, Sneakering, Careerist.</p>
                     <p>The level is a monotonous, empty office-like space with darkened elements, numerous turns, and empty rooms. The level is minimally furnished.</p>
                     <p>There are 3 doors on the level that lead to random unsafe levels.</p>
                 `
@@ -39,7 +39,7 @@ const guideDataEn = [
                 title: "Level 2",
                 content: `
                     <img src="./img/section1/sub1-4.jpg" alt="Level 2" class="content-image">
-                    <p>Name: "The Store".<br>Type: unsafe.<br>Items: 9mm ammo box х60, 12 gauge ammo box х10, flashlight, battery.<br>Entities: Cashier.</p>
+                    <p>Name: "Store".<br>Type: unsafe.<br>Items: 9mm ammo box х60, 12 gauge ammo box х10, flashlight, battery.<br>Entities: Cashier.</p>
                     <p>The level is a roadside store with various goods. In addition to shelves, there is a counter with a cash register against the wall, where the Cashier entity stands. The store appears small at first glance, but it is an anomalous place where you can get lost forever.</p>
                     <p>There is a door to the utility room that leads to a random unsafe level. If you manage to exit the store through the main entrance and walk into the darkness, you can reach a random safe level.</p>
                 `
@@ -49,7 +49,7 @@ const guideDataEn = [
                 title: "Level 3",
                 content: `
                     <img src="./img/section1/sub1-5.jpg" alt="Level 3" class="content-image">
-                    <p>Name: "Ball of happiness".<br>Type: safe.<br>Items: almond water bottle 50% and 75%.<br>Entities: Balloon.</p>
+                    <p>Name: "The Ball of Happiness".<br>Type: safe.<br>Items: almond water bottle 50% and 75%.<br>Entities: Balloon.</p>
                     <p>The level is an endless field with green grass, a blue sky, and white clouds. A large red balloon is visible on the horizon. Almond water bottles and lonely white doors are occasionally scattered across the field.</p>
                     <p>To exit this level to another random level, simply enter any of the white doors.</p>
                 `
@@ -69,7 +69,7 @@ const guideDataEn = [
                 title: "Level 8",
                 content: `
                     <img src="./img/section1/sub1-7.png" alt="Level 8" class="content-image">
-                    <p>Name: "The Office".<br>Type: unsafe.<br>Items: red tie, battery, shotgun, 12 gauge ammo box x20, documents.<br>Entities: Careerist.</p>
+                    <p>Name: "Office".<br>Type: unsafe.<br>Items: red tie, battery, shotgun, 12 gauge ammo box x20, documents.<br>Entities: Careerist.</p>
                     <p>The level consists of huge endless office spaces. The offices look like typical American offices in New York from the late 90s and early 2000s. In the corridors and offices you can meet many employees in the form of Careerist entities. There is an elevator in the building, but its operation is unknown.</p>
                     <p>To leave the level, you need to find the fire exit and go down the stairs. With a 50% chance you will transition to Level 7. In other cases, you will transition to a random level.</p>
                 `
@@ -79,7 +79,7 @@ const guideDataEn = [
                 title: "Level 10",
                 content: `
                     <img src="./img/section1/sub1-8.png" alt="Level 10" class="content-image">
-                    <p>Name: "Hub №1".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
+                    <p>Name: "The Hub №1".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
                     <p>The level is an endless road tunnel with many numbered iron doors on the sides. The tunnel has weak yellow lighting from lamps, and only emptiness is visible in the distance, which cannot be entered.</p>
                     <p>If you travel through different levels for a long time, you can accidentally reach this level. To move to any specific level, simply enter the corresponding door.</p>
                 `
