@@ -355,7 +355,7 @@ const guideDataEn = [
 ];
 
 const staticTextsDictEn = {
-    'hero-desc': `A solo adventure where you will explore liminal levels, encounter different entities, uncover a hidden story, and experience dangerous incidents!<br>Follow the project news in the <a href="https://telegram.me/enfity_games" target="_blank" class="telegram-link" title="Join us on Telegram">Telegram channel</a>!`,
+    'hero-desc': `A single-player adventure in a liminal spaces setting with shooter elements, where you have to explore levels inspired by backrooms, meet different entities and survive in dangerous incidents!<br>Follow the project news in the <a href="https://telegram.me/enfity_games" target="_blank" class="telegram-link" title="Join us on Telegram">Telegram channel</a>!`,
     'enter-btn': 'START EXPLORING',
     'main-section': 'SECTIONS',
     'sub-section': 'SUBSECTIONS',
