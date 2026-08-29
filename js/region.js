@@ -2,7 +2,7 @@ const ruLanguageRegions = ['RU', 'BY', 'UA', 'KZ', 'KG', 'TJ'];
 
 function detectRegion() {
     return new Promise((resolve) => {
-        fetch('https://region-by-ip.enfitygames.workers.dev/')
+        fetch('https://api.country.is/')
             .then(res => res.json())
             .then(data => {
                 let countryCode = data.country;

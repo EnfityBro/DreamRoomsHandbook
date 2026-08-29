@@ -101,12 +101,13 @@ function init() {
         clearContent();
     }
 
-    console.log('Dream Rooms Handbook initialized');
+    console.log('Dream Rooms Handbook has been initialized');
 }
 
 document.addEventListener('DOMContentLoaded', async function() {
     const overlay = document.getElementById('loading-overlay');
 
+    console.log(`Start user's region detection`);
     await detectRegion();
 
     if (typeof init === 'function') {
