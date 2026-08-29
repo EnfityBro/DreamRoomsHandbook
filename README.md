@@ -1,7 +1,7 @@
 # [Dream Rooms Handbook](https://enfitybro.github.io/DreamRoomsHandbook/)
 
 > [!NOTE]
-> **Dream Rooms** - is a solo adventure where you've to explore liminal levels, meet different entities, solve a hidden story and survive dangerous incidents!
+> **Dream Rooms** - is a single-player adventure in a liminal spaces setting with shooter elements, where you have to explore levels inspired by backrooms, meet different entities and survive in dangerous incidents!
 > 
 > **Dream Rooms Handbook** - is a game guide website that contains information about the game's content. The website is a copy of the in-game guide available from the game menu.
 
