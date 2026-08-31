@@ -9,8 +9,8 @@ const guideDataEn = [
                 content: `
                     <img src="./img/section1/sub1-1.jpg" alt="Liminal space" class="content-image">
                     <p>There are 2 types of levels:</p>
-                    <p>Safe – levels of this type contain no hostile entities or other threats. You can find almond water on these levels. Peaceful or neutral entities, various items, and weapons can also be found. Bulletproof vests cannot be found on safe levels.</p>
-                    <p>Unsafe – levels of this type contain hostile or neutral entities and other threats. Almond water and peaceful entities cannot be found here. Neutral entities, various items, weapons, and bulletproof vests can be found on unsafe levels.</p>
+                    <p>Safe – levels of this type contain no hostile entities or other threats. On safe levels, you can find almond water, peaceful or neutral entities, various items, and weapons. Bulletproof vests and apricot acid cannot be found on safe levels.</p>
+                    <p>Unsafe – levels of this type contain hostile entities and other threats, including incidents. On unsafe levels, you can find apricot acid, hostile or neutral entities, various items, weapons, and bulletproof vests. Peaceful entities and almond water cannot be found on unsafe levels.</p>
                     <p>Every level has the ability to move to another level (except the current one). Transition occurs by opening certain doors, entering empty spaces, or fulfilling specific level conditions.</p>
                 `
             },
@@ -171,7 +171,7 @@ const guideDataEn = [
                     <img src="./img/section2/sub2-8.jpg" alt="Harbinger" class="content-image">
                     <p>Type: neutral.<br>Health: 100 units.<br>Speed: -.<br>Damage: 50 units only 1 time.</p>
                     <p>A humanoid figure in white hooded clothing.</p>
-                    <p>Appears at unsafe levels before an incident begins. Remains inactive until it has been noticed, then disappears after a while. If you try to attack the Harbinger, he will immediately disappear, and the attacker will receive heavy damage.</p>
+                    <p>Appears on unsafe levels before an incident begins. Remains inactive until it has been noticed, then disappears after a while. If you try to attack the Harbinger, he will immediately disappear, and the attacker will receive heavy damage.</p>
                 `
             }
         ]
@@ -311,7 +311,7 @@ const guideDataEn = [
                 title: "About incidents",
                 content: `
                     <img src="./img/section4/sub4-1.png" alt="Incidents" class="content-image">
-                    <p>Incidents are sudden anomalous occurrences that can only occur at unsafe levels and represent a deadly threat.</p>
+                    <p>Incidents are sudden anomalous occurrences that can only occur on unsafe levels and represent a deadly threat.</p>
                     <p>A warning about the incident beginning is some anomalous behavior and the Harbinger appearance at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome could be a mysterious death.</p>
                 `
             },
@@ -329,25 +329,44 @@ const guideDataEn = [
     },
     {
         id: "section5",
-        title: "Stranger",
+        title: "Environment",
         subsections: [
             {
                 id: "sub5-1",
-                title: "About Stranger",
+                title: "Stranger",
                 content: `
                     <img src="./img/section5/sub5-1.jpg" alt="Stranger" class="content-image">
                     <p>A medium height and build human. Wears a black jacket with large pockets and a plaid shirt, black loose jeans, and black shoes. Has a backpack on the back.</p>
                     <p>Presumably, this is the only being on the levels that is not their entity. Has the behavior of an ordinary person. The origin is unknown. The gender is unknown. The reason for the appearance on the levels is unknown.</p>
-                    <p>Health: 100 units.<br>Speed: 4.5 km/h.<br>Inventory capacity: 12 items.</p>
+                    <p>Health: 100 units.<br>Speed: 4.5 km/h.</p>
                 `
             },
             {
                 id: "sub5-2",
-                title: "About inventory",
+                title: "Stranger's inventory",
                 content: `
                     <img src="./img/section5/sub5-2.jpg" alt="Inventory" class="content-image">
                     <p>Stranger can carry up to 1 item in the hand and hold up to 2 items in the jacket pockets, the backpack stores up to 9 items.</p>
                     <p>Upon loss of consciousness, the Stranger loses all items from the hand and jacket's pockets, and 1/3 of the contents fall out of the backpack.</p>
+                    <p>Inventory capacity: 12 items.</p>
+                `
+            },
+            {
+                id: "sub5-3",
+                title: "Almond water",
+                content: `
+                    <img src="./img/section5/sub5-3.png" alt="Almond water" class="content-image">
+                    <p>A very useful liquid that can be found in various forms only on safe levels. Almond water has a light, pleasant aroma and is visually similar to ordinary water. Presumably, any liquid on safe levels that resembles water is almond water.</p>
+                    <p>When consumed, almond water restores health and regenerates damaged tissues. With regular contact with almond water, the effects are manifested in a weaker form.</p>
+                `
+            },
+            {
+                id: "sub5-4",
+                title: "Apricot acid",
+                content: `
+                    <img src="./img/section5/sub5-4.png" alt="Apricot acid" class="content-image">
+                    <p>An extremely dangerous liquid that can be found in various forms only on unsafe levels. Apricot acid has a strong, unpleasant odor and visually resembles pale water of an orange‑yellow color.</p>
+                    <p>When consumed, apricot acid causes the victim to lose consciousness. This is followed by respiratory paralysis and cardiac arrest. In other types of interaction, it causes severe pain, up to and including death.</p>
                 `
             }
         ]
