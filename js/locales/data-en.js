@@ -240,47 +240,47 @@ const guideDataEn = [
             },
             {
                 id: "sub3-7",
-                title: "Flashlight",
-                content: `
-                    <img src="./img/section3/sub3-7.png" alt="Flashlight" class="content-image">
-                    <p>The flashlight can illuminate dark areas of levels. Its light can harm certain entities.</p>
-                    <p>It can shine continuously for 3 minutes and needs to be recharged with batteries periodically.</p>
-                `
-            },
-            {
-                id: "sub3-8",
-                title: "Battery",
-                content: `
-                    <img src="./img/section3/sub3-8.png" alt="Battery" class="content-image">
-                    <p>Gives +50% charge to an item. Can be used for various electrical devices on the level or the flashlight.</p>
-                `
-            },
-            {
-                id: "sub3-10",
-                title: "Red tie",
-                content: `
-                    <img src="./img/section3/sub3-10.png" alt="Red tie" class="content-image">
-                    <p>While in the inventory, the Careerist entity cannot harm.</p>
-                    <p>Obtained by killing a Careerist entity wearing a red tie.</p>
-                `
-            },
-            {
-                id: "sub3-12",
                 title: "Assault rifle",
                 content: `
-                    <img src="./img/section3/sub3-12.png" alt="Assault rifle" class="content-image">
+                    <img src="./img/section3/sub3-7.png" alt="Assault rifle" class="content-image">
                     <p>An old reliable Russian assault rifle chambered in 7.62mm. Has automatic fire mode and is excellent for medium to long range combat.</p>
                     <p>No more than 1 such assault rifle can be stored in the inventory. No more than 150 rounds to fire at a time can be prepared.</p>
                     <p>Caliber: 7.62mm.<br>Magazine capacity: 30 rounds.<br>Fire rate: 850 shots per minute.<br>Reload time: 2.75 seconds.<br>Shooting accuracy: 8.5/10.<br>Recoil: medium.</p>
                 `
             },
             {
-                id: "sub3-13",
+                id: "sub3-8",
                 title: "7.62 ammo box",
                 content: `
-                    <img src="./img/section3/sub3-13.png" alt="7.62 ammo box" class="content-image">
+                    <img src="./img/section3/sub3-8.png" alt="7.62 ammo box" class="content-image">
                     <p>An ammo box can contain 60, 90, or 120 rounds of 7.62mm caliber.</p>
                     <p>7.62mm bullet characteristics:<br>Speed: 300 m/s.<br>Damage: 9.5 units.<br>Flight time: 5 seconds.</p>
+                `
+            },
+            {
+                id: "sub3-9",
+                title: "Flashlight",
+                content: `
+                    <img src="./img/section3/sub3-9.png" alt="Flashlight" class="content-image">
+                    <p>The flashlight can illuminate dark areas of levels. Its light can harm certain entities.</p>
+                    <p>It can shine continuously for 3 minutes and needs to be recharged with batteries periodically.</p>
+                `
+            },
+            {
+                id: "sub3-10",
+                title: "Battery",
+                content: `
+                    <img src="./img/section3/sub3-10.png" alt="Battery" class="content-image">
+                    <p>Gives +50% charge to an item. Can be used for various electrical devices on the level or the flashlight.</p>
+                `
+            },
+            {
+                id: "sub3-11",
+                title: "Red tie",
+                content: `
+                    <img src="./img/section3/sub3-11.png" alt="Red tie" class="content-image">
+                    <p>While in the inventory, the Careerist entity cannot harm.</p>
+                    <p>Obtained by killing a Careerist entity wearing a red tie.</p>
                 `
             }
         ]
