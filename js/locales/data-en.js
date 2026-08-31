@@ -256,29 +256,12 @@ const guideDataEn = [
                 `
             },
             {
-                id: "sub3-9",
-                title: "Note",
-                content: `
-                    <img src="./img/section3/sub3-9.png" alt="Note" class="content-image">
-                    <p>An informational message found on the level. May contain various instructions.</p>
-                `
-            },
-            {
                 id: "sub3-10",
                 title: "Red tie",
                 content: `
                     <img src="./img/section3/sub3-10.png" alt="Red tie" class="content-image">
                     <p>While in the inventory, the Careerist entity cannot harm.</p>
                     <p>Obtained by killing a Careerist entity wearing a red tie.</p>
-                `
-            },
-            {
-                id: "sub3-11",
-                title: "Documents",
-                content: `
-                    <img src="./img/section3/sub3-11.png" alt="Documents" class="content-image">
-                    <p>A folder with various documented information from organizations or individuals about what is happening at the levels.</p>
-                    <p>A rare item. Reading the contents of some documents can lead to trouble.</p>
                 `
             },
             {
