@@ -299,8 +299,7 @@ const guideDataEn = [
                 title: "About entities",
                 content: `
                     <img src="./img/section5/sub5-2.png" alt="Entity" class="content-image">
-                    <p>Entities are spawns of the levels, similar to living creatures.</p>
-                    <p>Entities are divided into 3 types:</p>
+                    <p>Entities are spawns of the levels, similar to living creatures. Entities are divided into 3 types:</p>
                     <p>Peaceful entities will never attack or cause harm, even in response to external aggression.</p>
                     <p>Neutral entities do not attack by default and have neutral behavior, but with external aggression or irritation, they will begin to attack or defend themselves.</p>
                     <p>Hostile entities are always aggressive and may attack by default.</p>
