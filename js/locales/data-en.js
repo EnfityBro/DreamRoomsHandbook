@@ -5,80 +5,69 @@ const guideDataEn = [
         subsections: [
             {
                 id: "sub1-1",
-                title: "About levels",
-                content: `
-                    <img src="./img/section1/sub1-1.jpg" alt="Liminal space" class="content-image">
-                    <p>There are 2 types of levels:</p>
-                    <p>Safe – levels of this type contain no hostile entities or other threats. On safe levels, you can find almond water, peaceful or neutral entities, various items, and weapons. Bulletproof vests and apricot acid cannot be found on safe levels.</p>
-                    <p>Unsafe – levels of this type contain hostile entities and other threats, including incidents. On unsafe levels, you can find apricot acid, hostile or neutral entities, various items, weapons, and bulletproof vests. Peaceful entities and almond water cannot be found on unsafe levels.</p>
-                    <p>Every level has the ability to move to another level (except the current one). Transition occurs by opening certain doors, entering empty spaces, or fulfilling specific level conditions.</p>
-                `
-            },
-            {
-                id: "sub1-2",
                 title: "Level -1",
                 content: `
-                    <img src="./img/section1/sub1-2.jpg" alt="Level -1" class="content-image">
+                    <img src="./img/section1/sub1-1.jpg" alt="Level -1" class="content-image">
                     <p>Name: "Entrance".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
                     <p>The level is a square room with two doors located in opposite corners of the wall. The lighter door leads to a random safe level, the darker one leads to a random unsafe level.</p>
                     <p>It is impossible to reach this level from any other level.</p>
                 `
             },
             {
-                id: "sub1-3",
+                id: "sub1-2",
                 title: "Level 0",
                 content: `
-                    <img src="./img/section1/sub1-3.jpg" alt="Level 0" class="content-image">
+                    <img src="./img/section1/sub1-2.jpg" alt="Level 0" class="content-image">
                     <p>Name: "Edge".<br>Type: unsafe.<br>Items: pistol, bulletproof vest 25%, battery, 9mm ammo box x30.<br>Entities: Smiling, Sneakering, Careerist.</p>
                     <p>The level is a monotonous, empty office-like space with darkened elements, numerous turns, and empty rooms. The level is minimally furnished.</p>
                     <p>There are 3 doors on the level that lead to random unsafe levels.</p>
                 `
             },
             {
-                id: "sub1-4",
+                id: "sub1-3",
                 title: "Level 2",
                 content: `
-                    <img src="./img/section1/sub1-4.jpg" alt="Level 2" class="content-image">
+                    <img src="./img/section1/sub1-3.jpg" alt="Level 2" class="content-image">
                     <p>Name: "Store".<br>Type: unsafe.<br>Items: 9mm ammo box х60, 12 gauge ammo box х10, flashlight, battery.<br>Entities: Cashier.</p>
                     <p>The level is a roadside store with various goods. In addition to shelves, there is a counter with a cash register against the wall, where the Cashier entity stands. The store appears small at first glance, but it is an anomalous place where you can get lost forever.</p>
                     <p>There is a door to the utility room that leads to a random unsafe level. If you manage to exit the store through the main entrance and walk into the darkness, you can reach a random safe level.</p>
                 `
             },
             {
-                id: "sub1-5",
+                id: "sub1-4",
                 title: "Level 3",
                 content: `
-                    <img src="./img/section1/sub1-5.jpg" alt="Level 3" class="content-image">
+                    <img src="./img/section1/sub1-4.jpg" alt="Level 3" class="content-image">
                     <p>Name: "The Ball of Happiness".<br>Type: safe.<br>Items: almond water bottle 50% and 75%.<br>Entities: Balloon.</p>
                     <p>The level is an endless field with green grass, a blue sky, and white clouds. A large red balloon is visible on the horizon. Almond water bottles and lonely white doors are occasionally scattered across the field.</p>
                     <p>To exit this level to another random level, simply enter any of the white doors.</p>
                 `
             },
             {
-                id: "sub1-6",
+                id: "sub1-5",
                 title: "Level 7",
                 content: `
-                    <img src="./img/section1/sub1-6.png" alt="Level 7" class="content-image">
+                    <img src="./img/section1/sub1-5.png" alt="Level 7" class="content-image">
                     <p>Name: "The Staircase".<br>Type: unsafe.<br>Items: -.<br>Entities: Errant.</p>
                     <p>The level is a dimly lit endless stairwell of a large office building. On each floor there is a door with a floor number that is always the same and equal to 19. You can go both up and down.</p>
                     <p>On some floors the door will have no floor number. Such a door may lead to a random unsafe level.</p>
                 `
             },
             {
-                id: "sub1-7",
+                id: "sub1-6",
                 title: "Level 8",
                 content: `
-                    <img src="./img/section1/sub1-7.png" alt="Level 8" class="content-image">
+                    <img src="./img/section1/sub1-6.png" alt="Level 8" class="content-image">
                     <p>Name: "Office".<br>Type: unsafe.<br>Items: red tie, battery, shotgun, 12 gauge ammo box x20, documents.<br>Entities: Careerist.</p>
                     <p>The level consists of huge endless office spaces. The offices look like typical American offices in New York from the late 90s and early 2000s. In the corridors and offices you can meet many employees in the form of Careerist entities. There is an elevator in the building, but its operation is unknown.</p>
                     <p>To leave the level, you need to find the fire exit and go down the stairs. With a 50% chance you will transition to Level 7. In other cases, you will transition to a random level.</p>
                 `
             },
             {
-                id: "sub1-8",
+                id: "sub1-7",
                 title: "Level 10",
                 content: `
-                    <img src="./img/section1/sub1-8.png" alt="Level 10" class="content-image">
+                    <img src="./img/section1/sub1-7.png" alt="Level 10" class="content-image">
                     <p>Name: "The Hub №1".<br>Type: safe.<br>Items: -.<br>Entities: -.</p>
                     <p>The level is an endless road tunnel with many numbered iron doors on the sides. The tunnel has weak yellow lighting from lamps, and only emptiness is visible in the distance, which cannot be entered.</p>
                     <p>If you travel through different levels for a long time, you can accidentally reach this level. To move to any specific level, simply enter the corresponding door.</p>
@@ -92,20 +81,9 @@ const guideDataEn = [
         subsections: [
             {
                 id: "sub2-1",
-                title: "About entities",
-                content: `
-                    <img src="./img/section2/sub2-1.png" alt="Entity" class="content-image">
-                    <p>Entities are divided into 3 types:</p>
-                    <p>Peaceful entities will never attack or cause harm, even in response to external aggression.</p>
-                    <p>Neutral entities do not attack by default and have neutral behavior, but with external aggression or irritation, they will begin to attack or defend themselves.</p>
-                    <p>Hostile entities are always aggressive and may attack by default.</p>
-                `
-            },
-            {
-                id: "sub2-2",
                 title: "Smiling",
                 content: `
-                    <img src="./img/section2/sub2-2.png" alt="Smiling" class="content-image">
+                    <img src="./img/section2/sub2-1.png" alt="Smiling" class="content-image">
                     <p>Type: hostile.<br>Health: 50 units.<br>Speed: 2 km/h.<br>Damage: 7 units per 1.5 seconds.</p>
                     <p>A humanoid creature with a creepy, stretched smile across its entire face. This entity has black skin, glowing red eyes, and white teeth.</p>
                     <p>The Smiling wanders the level in search of victim. Once it finds a victim, it immediately runs toward it to kill. After seeing its victim at least once, it will pursue them until it kills them, dies itself or loses sight of them.</p>
@@ -113,20 +91,20 @@ const guideDataEn = [
                 `
             },
             {
-                id: "sub2-3",
+                id: "sub2-2",
                 title: "Sneakering",
                 content: `
-                    <img src="./img/section2/sub2-3.png" alt="Sneakering" class="content-image">
+                    <img src="./img/section2/sub2-2.png" alt="Sneakering" class="content-image">
                     <p>Type: hostile.<br>Health: 65 units.<br>Speed: 4 km/h.<br>Damage: 10 units per 1 second.</p>
                     <p>A thin-boned humanoid creature with signs of decay and a creepy skeletal head. This entity only appears in dark areas of the level.</p>
                     <p>Upon appearing, it immediately attacks any nearby victim. There is an effective way to fight Sneakering: use a flashlight or lure it into a lit area. Then it will take heavy damage and its attack power will be reduced by 50%.</p>
                 `
             },
             {
-                id: "sub2-4",
+                id: "sub2-3",
                 title: "Cashier",
                 content: `
-                    <img src="./img/section2/sub2-4.png" alt="Cashier" class="content-image">
+                    <img src="./img/section2/sub2-3.png" alt="Cashier" class="content-image">
                     <p>Type: neutral.<br>Health: 100 units.<br>Speed: 3.5 km/h.<br>Damage: 0.5 units per 1 second (passive attack), 45 units per 2 seconds (aggressive attack).</p>
                     <p>The entity is a creepy person in a store cashier uniform. The apron is stained with blood, the skin has a pale hue, and the gaze is full of madness.</p>
                     <p>It usually stands at the cash register, and sometimes the Cashier can be seen watching customers in dark corners of the store. It appears only on Level 2.</p>
@@ -134,20 +112,20 @@ const guideDataEn = [
                 `
             },
             {
-                id: "sub2-5",
+                id: "sub2-4",
                 title: "Errant",
                 content: `
-                    <img src="./img/section2/sub2-5.png" alt="Errant" class="content-image">
+                    <img src="./img/section2/sub2-4.png" alt="Errant" class="content-image">
                     <p>Type: hostile.<br>Health: 150 units.<br>Speed: -.<br>Damage: 25 units per 1 second.</p>
                     <p>An extremely dangerous entity that looks like a humanoid figure in black hooded clothing.</p>
                     <p>When the Errant appears on the level, it first stays near the victim and observes their actions. If you try to approach or shoot it, the entity will teleport to another location. After some time, it will attack the victim from behind with a deafening sound. You can scare it away by staying completely still for a while when it appears and is not yet interested in killing.</p>
                 `
             },
             {
-                id: "sub2-6",
+                id: "sub2-5",
                 title: "Careerist",
                 content: `
-                    <img src="./img/section2/sub2-6.png" alt="Careerist" class="content-image">
+                    <img src="./img/section2/sub2-5.png" alt="Careerist" class="content-image">
                     <p>Type: neutral.<br>Health: 80 units.<br>Speed: 3.5 km/h.<br>Damage: 4 units per 1.25 seconds.</p>
                     <p>A tired office worker wearing a white or blue shirt, blue (30% chance), black (35% chance) or red (5% chance) tie, or with the top button undone (30% chance), black or gray trousers, polished black shoes, and may wear glasses or carry a briefcase.</p>
                     <p>The entity will not attack as long as no one is looking at it or showing aggression. If you stare at the Careerist for too long or attack it, it will begin to pursue and attack the victim in its field of view. The entity remains inactive until it starts interacting with something. This entity is irritated by long stares, so the next time you try to look at a Careerist, he will react faster.</p>
@@ -155,20 +133,20 @@ const guideDataEn = [
                 `
             },
             {
-                id: "sub2-7",
+                id: "sub2-6",
                 title: "Balloon",
                 content: `
-                    <img src="./img/section2/sub2-7.png" alt="Balloon" class="content-image">
+                    <img src="./img/section2/sub2-6.png" alt="Balloon" class="content-image">
                     <p>Type: peaceful.<br>Health: 1 unit.<br>Speed: 1 km/h.<br>Damage: -.</p>
                     <p>An entity in the form of a colorful balloon with eyes and a smiling mouth. Most often found in red, yellow, green, or blue colors.</p>
                     <p>The Balloon can simply float around the level or follow a chosen target.</p>
                 `
             },
             {
-                id: "sub2-8",
+                id: "sub2-7",
                 title: "Harbinger",
                 content: `
-                    <img src="./img/section2/sub2-8.jpg" alt="Harbinger" class="content-image">
+                    <img src="./img/section2/sub2-7.jpg" alt="Harbinger" class="content-image">
                     <p>Type: neutral.<br>Health: 100 units.<br>Speed: -.<br>Damage: 50 units only 1 time.</p>
                     <p>A humanoid figure in white hooded clothing.</p>
                     <p>Appears on unsafe levels before an incident begins. Remains inactive until it has been noticed, then disappears after a while. If you try to attack the Harbinger, he will immediately disappear, and the attacker will receive heavy damage.</p>
@@ -291,18 +269,9 @@ const guideDataEn = [
         subsections: [
             {
                 id: "sub4-1",
-                title: "About incidents",
-                content: `
-                    <img src="./img/section4/sub4-1.png" alt="Incidents" class="content-image">
-                    <p>Incidents are sudden anomalous occurrences that can only occur on unsafe levels and represent a deadly threat.</p>
-                    <p>A warning about the incident beginning is some anomalous behavior and the Harbinger appearance at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome could be a mysterious death.</p>
-                `
-            },
-            {
-                id: "sub4-2",
                 title: "Incident №1",
                 content: `
-                    <img src="./img/section4/sub4-2.png" alt="Incident №1" class="content-image">
+                    <img src="./img/section4/sub4-1.png" alt="Incident №1" class="content-image">
                     <p>Name: "Black heads".<br>Level: 8.<br>Chance of occurrence: 45%.</p>
                     <p>If all entities at the level have black heads, then the following rules must be followed:<br>1. Do not look at entities with black heads and do not go toward strange sounds.<br>2. Look for turned on computers and turn them off. If there are no more turned on computers on the level, it means that the incident is ended.</p>
                     <p>Chance of positive outcome if conditions are met: 97%.<br>Positive outcome: all entities disappear from the level until the next visit.<br>Negative outcome: instant death.</p>
@@ -316,38 +285,77 @@ const guideDataEn = [
         subsections: [
             {
                 id: "sub5-1",
+                title: "About levels",
+                content: `
+                    <img src="./img/section5/sub5-1.jpg" alt="Liminal space" class="content-image">
+                    <p>There are 2 types of levels:</p>
+                    <p>Safe – levels of this type contain no hostile entities or other threats. On safe levels, you can find almond water, peaceful or neutral entities, various items, and weapons. Bulletproof vests and apricot acid cannot be found on safe levels.</p>
+                    <p>Unsafe – levels of this type contain hostile entities and other threats, including incidents. On unsafe levels, you can find apricot acid, hostile or neutral entities, various items, weapons, and bulletproof vests. Peaceful entities and almond water cannot be found on unsafe levels.</p>
+                    <p>Every level has the ability to move to another level (except the current one). Transition occurs by opening certain doors, entering empty spaces, or fulfilling specific level conditions.</p>
+                `
+            },
+            {
+                id: "sub5-2",
+                title: "About entities",
+                content: `
+                    <img src="./img/section5/sub5-2.png" alt="Entity" class="content-image">
+                    <p>Entities are divided into 3 types:</p>
+                    <p>Peaceful entities will never attack or cause harm, even in response to external aggression.</p>
+                    <p>Neutral entities do not attack by default and have neutral behavior, but with external aggression or irritation, they will begin to attack or defend themselves.</p>
+                    <p>Hostile entities are always aggressive and may attack by default.</p>
+                `
+            },
+            {
+                id: "sub5-3",
+                title: "About items",
+                content: `
+                    <img src="./img/section5/sub5-3.png" alt="Items" class="content-image">
+                    <p>Items</p>
+                `
+            },
+            {
+                id: "sub5-4",
+                title: "About incidents",
+                content: `
+                    <img src="./img/section5/sub5-4.png" alt="Incidents" class="content-image">
+                    <p>Incidents are sudden anomalous occurrences that can only occur on unsafe levels and represent a deadly threat.</p>
+                    <p>A warning about the incident beginning is some anomalous behavior and the Harbinger appearance at the level. Each incident has strict conditions, observing which, there is a chance for a positive outcome. The negative outcome could be a mysterious death.</p>
+                `
+            },
+            {
+                id: "sub5-5",
                 title: "Stranger",
                 content: `
-                    <img src="./img/section5/sub5-1.jpg" alt="Stranger" class="content-image">
+                    <img src="./img/section5/sub5-5.jpg" alt="Stranger" class="content-image">
                     <p>A medium height and build human. Wears a black jacket with large pockets and a plaid shirt, black loose jeans, and black shoes. Has a backpack on the back.</p>
                     <p>Presumably, this is the only being on the levels that is not their entity. Has the behavior of an ordinary person. The origin is unknown. The gender is unknown. The reason for the appearance on the levels is unknown.</p>
                     <p>Health: 100 units.<br>Speed: 4.5 km/h.</p>
                 `
             },
             {
-                id: "sub5-2",
+                id: "sub5-6",
                 title: "Stranger's inventory",
                 content: `
-                    <img src="./img/section5/sub5-2.jpg" alt="Inventory" class="content-image">
+                    <img src="./img/section5/sub5-6.jpg" alt="Inventory" class="content-image">
                     <p>Stranger can carry up to 1 item in the hand and hold up to 2 items in the jacket pockets, the backpack stores up to 9 items.</p>
                     <p>Upon loss of consciousness, the Stranger loses all items from the hand and jacket's pockets, and 1/3 of the contents fall out of the backpack.</p>
                     <p>Inventory capacity: 12 items.</p>
                 `
             },
             {
-                id: "sub5-3",
+                id: "sub5-7",
                 title: "Almond water",
                 content: `
-                    <img src="./img/section5/sub5-3.png" alt="Almond water" class="content-image">
+                    <img src="./img/section5/sub5-7.png" alt="Almond water" class="content-image">
                     <p>A very useful liquid that can be found in various forms only on safe levels. Almond water has a light, pleasant aroma and is visually similar to ordinary water. Presumably, any liquid on safe levels that resembles water is almond water.</p>
                     <p>When consumed, almond water restores health and regenerates damaged tissues. With regular contact with almond water, the effects are manifested in a weaker form.</p>
                 `
             },
             {
-                id: "sub5-4",
+                id: "sub5-8",
                 title: "Apricot acid",
                 content: `
-                    <img src="./img/section5/sub5-4.png" alt="Apricot acid" class="content-image">
+                    <img src="./img/section5/sub5-8.png" alt="Apricot acid" class="content-image">
                     <p>An extremely dangerous liquid that can be found in various forms only on unsafe levels. Apricot acid has a strong, unpleasant odor and visually resembles pale water of an orange‑yellow color.</p>
                     <p>When consumed, apricot acid causes the victim to lose consciousness. This is followed by respiratory paralysis and cardiac arrest. In other types of interaction, it causes severe pain, up to and including death.</p>
                 `
