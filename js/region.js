@@ -8,22 +8,31 @@ function detectRegion() {
                 let countryCode = data.country;
                 console.log(`User's region is ${countryCode}`);
 
-                if (ruLanguageRegions.includes(countryCode)) {
-                	translateTexts(guideDataRu, staticTextsDictRu);
-                    console.log('Current language is Russian');
-                } else {
-                    translateTexts(guideDataEn, staticTextsDictEn);
-                    console.log('Current language is English');
+                if (/^[A-Z]{2}$/.test(countryCode)) {
+                    if (ruLanguageRegions.includes(countryCode)) {
+                        translateTexts(guideDataRu, staticTextsDictRu);
+                        console.log('Current language is Russian');
+                    }
+                    else {
+                        regionFallback('Current language is English');
+                    }
+                }
+                else {
+                    regionFallback('Region API response error, set language to English');
                 }
 
                 resolve();
             })
             .catch(() => {
-                translateTexts(guideDataEn, staticTextsDictEn);
-                console.log('Region detection error, set language to English');
+                regionFallback('Region detection error, set language to English');
                 resolve();
             });
     });
+}
+
+function regionFallback(message){
+    translateTexts(guideDataEn, staticTextsDictEn);
+    console.log(message ?? 'Fallback region to English for some reason');
 }
 
 function translateTexts(data, staticTextsDict){
