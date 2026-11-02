@@ -1,5 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Anton+SC&display=swap');
+@font-face {
+    font-family: 'Cascadia Mono';
+    src: url('../fonts/CascadiaMono-VariableFont_wght.woff2') format('woff2');
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../fonts/PressStart2P-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anton SC';
+    src: url('../fonts/AntonSC-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
     --bg-dark: #0A0A0A;
